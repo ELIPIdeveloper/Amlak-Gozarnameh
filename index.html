@@ -5,11 +5,11 @@
 <style>
 html{scroll-behavior:smooth;max-width:100%;overflow-x:hidden;}
 body{margin:0;max-width:100%;overflow-x:hidden;background:#f5f5f7;font-family:"Vazirmatn",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1d1d1f;}
-*{box-sizing:border-box;}.va-section{position:relative;}.va-item{position:relative;}.va-item.play,.va-item.anim-float{will-change:transform,opacity,filter;}@media (prefers-reduced-motion: reduce){.va-item,.va-item.play,.va-item.anim-float{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto!important;}[data-reveal]{transition:none!important;}}.va-item.anim-none{opacity:1;}.va-item.anim-fadeLeft{opacity:0;filter:blur(var(--blur));transform:translateX(calc(-1*var(--offset)));}.va-item.anim-fadeRight{opacity:0;filter:blur(var(--blur));transform:translateX(var(--offset));}.va-item.anim-fadeUp{opacity:0;filter:blur(var(--blur));transform:translateY(var(--offset));}.va-item.anim-fadeDown{opacity:0;filter:blur(var(--blur));transform:translateY(calc(-1*var(--offset)));}.va-item.anim-zoom{opacity:0;filter:blur(var(--blur));transform:scale(.85);}.va-item.anim-float{animation:vaFloatY var(--dur,4s) ease-in-out infinite;}.va-item.anim-fadeLeft.play{animation:vaFadeLeft var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeRight.play{animation:vaFadeRight var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeUp.play{animation:vaFadeUp var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeDown.play{animation:vaFadeDown var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-zoom.play{animation:vaZoom var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}@keyframes vaFadeLeft{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeRight{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeUp{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaFadeDown{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaZoom{to{opacity:1;filter:blur(0);transform:scale(1);}}@keyframes vaFloatY{0%{transform:translateY(0);}50%{transform:translateY(var(--offset,-15px));}100%{transform:translateY(0);}}.va-btn{display:inline-block;padding:14px 30px;font-weight:700;font-size:16px;text-decoration:none;transition:transform .3s ease, box-shadow .3s ease;}.va-btn:hover{transform:translateY(-2px) scale(1.02);}.va-contact-link{transition:opacity .2s ease;cursor:pointer;}.va-contact-link:hover{opacity:.72;}.va-tag{background:#e8e8ed;color:#1d1d1f;padding:6px 16px;border-radius:980px;font-size:14px;}.va-360{background:#000;}.va-360-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.55);color:#fff;padding:4px 14px;border-radius:980px;font-size:12px;pointer-events:none;}.va-360-gyro-btn{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.55);color:#fff;border:none;padding:6px 14px;border-radius:980px;font-size:12px;cursor:pointer;z-index:2;font-family:inherit;}.va-360-gyro-btn:hover{background:rgba(0,0,0,.75);}.va-360-gyro-btn.on{background:#2f5ded;}.va-360-fs-btn{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.55);color:#fff;border:none;width:32px;height:32px;border-radius:980px;font-size:15px;cursor:pointer;z-index:2;font-family:inherit;line-height:1;display:flex;align-items:center;justify-content:center;}.va-360-fs-btn:hover{background:rgba(0,0,0,.75);}.va-360:fullscreen,.va-360:-webkit-full-screen,.va-360:-moz-full-screen,.va-360:-ms-fullscreen{width:100vw!important;height:100vh!important;border-radius:0!important;}.va-img-broken{color:#c0392b;font-weight:600;}.va-input{padding:14px 16px;border-radius:14px;border:1px solid #d2d2d7;font-family:inherit;font-size:15px;background:#fff;}.va-input:focus{outline:2px solid #2f5ded;border-color:transparent;}.va-empty-media{display:flex;align-items:center;justify-content:center;color:#86868b;font-size:13px;font-weight:600;background-color:#f5f5f5;background-image:linear-gradient(45deg,#e2e2e5 25%,transparent 25%),linear-gradient(-45deg,#e2e2e5 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e2e2e5 75%),linear-gradient(-45deg,transparent 75%,#e2e2e5 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0;}
+*{box-sizing:border-box;}.va-section{position:relative;}.va-item{position:relative;}.va-item.play,.va-item.anim-float{will-change:transform,opacity,filter;}@media (prefers-reduced-motion: reduce){.va-item,.va-item.play,.va-item.anim-float{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto!important;}[data-reveal]{transition:none!important;}}.va-item.anim-none{opacity:1;}.va-item.anim-fadeLeft{opacity:0;filter:blur(var(--blur));transform:translateX(calc(-1*var(--offset)));}.va-item.anim-fadeRight{opacity:0;filter:blur(var(--blur));transform:translateX(var(--offset));}.va-item.anim-fadeUp{opacity:0;filter:blur(var(--blur));transform:translateY(var(--offset));}.va-item.anim-fadeDown{opacity:0;filter:blur(var(--blur));transform:translateY(calc(-1*var(--offset)));}.va-item.anim-zoom{opacity:0;filter:blur(var(--blur));transform:scale(.85);}.va-item.anim-float{animation:vaFloatY var(--dur,4s) ease-in-out infinite;}.va-item.anim-fadeLeft.play{animation:vaFadeLeft var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeRight.play{animation:vaFadeRight var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeUp.play{animation:vaFadeUp var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeDown.play{animation:vaFadeDown var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-zoom.play{animation:vaZoom var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}@keyframes vaFadeLeft{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeRight{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeUp{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaFadeDown{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaZoom{to{opacity:1;filter:blur(0);transform:scale(1);}}@keyframes vaFloatY{0%{transform:translateY(0);}50%{transform:translateY(var(--offset,-15px));}100%{transform:translateY(0);}}.va-btn{display:inline-block;padding:14px 30px;font-weight:700;font-size:16px;text-decoration:none;transition:transform .3s ease, box-shadow .3s ease;}.va-btn:hover{transform:translateY(-2px) scale(1.02);}.va-contact-link{transition:opacity .2s ease;cursor:pointer;}.va-contact-link:hover{opacity:.72;}.va-tag{background:#e8e8ed;color:#1d1d1f;padding:6px 16px;border-radius:980px;font-size:14px;}.va-360{background:#000;}.va-360-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#8e8e93;font-size:28px;}.va-360-spinner{width:30px;height:30px;border-radius:50%;border:3px solid rgba(255,255,255,.25);border-top-color:#fff;animation:va360Spin .8s linear infinite;}@keyframes va360Spin{to{transform:rotate(360deg);}}.va-360-error{color:#fff;font-size:13px;}.va-360-stage{position:absolute;inset:0;overflow:hidden;}.va-360-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none;}.va-360-canvas.dragging{cursor:grabbing;}.va-360-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.55);color:#fff;padding:4px 14px;border-radius:980px;font-size:12px;pointer-events:none;transition:opacity .6s ease;}.va-360-fs-btn{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.55);color:#fff;border:none;width:32px;height:32px;border-radius:980px;font-size:15px;cursor:pointer;z-index:2;font-family:inherit;line-height:1;display:flex;align-items:center;justify-content:center;}.va-360-fs-btn:hover{background:rgba(0,0,0,.75);}.va-360:fullscreen,.va-360:-webkit-full-screen,.va-360:-moz-full-screen,.va-360:-ms-fullscreen{width:100vw!important;height:100vh!important;border-radius:0!important;}.va-img-broken{color:#c0392b;font-weight:600;}.va-input{padding:14px 16px;border-radius:14px;border:1px solid #d2d2d7;font-family:inherit;font-size:15px;background:#fff;}.va-input:focus{outline:2px solid #2f5ded;border-color:transparent;}.va-empty-media{display:flex;align-items:center;justify-content:center;color:#86868b;font-size:13px;font-weight:600;background-color:#f5f5f5;background-image:linear-gradient(45deg,#e2e2e5 25%,transparent 25%),linear-gradient(-45deg,#e2e2e5 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e2e2e5 75%),linear-gradient(-45deg,transparent 75%,#e2e2e5 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0;}
 </style>
 </head>
 <body>
-<div id="vaProgressBar" style="position:fixed;top:0;right:0;left:0;height:3px;background:rgba(0,0,0,1);width:0%;z-index:9999;"></div><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:10px 40px;min-height:300px;" id="Icon"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:0.9s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-float" style="width:250px;max-width:100%; --dur:5s; --delay:0.45s; --blur:20px; --offset:14px;"><img src="icon.svg" style="width:100%;height:auto;object-fit:cover;border-radius:28px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:40px;"><h2 style="color:#1d1d1f;font-size:30px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">املاک گذرنامه</h2></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:50px;"><p style="color:#515154;font-size:14px;font-family:inherit;line-height:1.85;margin:0;">در دنیایی که هر ملک یک داستان است، ما دروازه‌بان انتخاب‌های شما هستیم؛ از جست‌وجو تا امضای قرارداد، با دقتی که در خور سرمایه‌ی شماست.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:50px 24px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:20px; --offset:50px;"><a href="#About" class="va-btn" style="background:rgba(0,0,0,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">بیشتر بدانید</a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:20px; --offset:50px;"><a href="#Contact" class="va-btn" style="background:rgba(0,0,0,0.12);color:rgba(0,0,0,1);border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">دریافت مشاوره</a></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:nullpx;box-shadow:none;padding:50px 40px;" id="About"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:60px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0s; --blur:20px; --offset:60px;"><img src="design.jpg" style="width:100%;height:auto;object-fit:cover;border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.18);border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeLeft" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:38px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">درباره ما</h2></div><div class="va-item anim-fadeUp" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:60px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;"></div><div style="font-size:16px;color:#515154;line-height:1.8;">املاک گذرنامه با تکیه بر سال‌ها تجربه در بازار ملک کرمانشاه، همراه مطمئنی برای خرید، فروش، رهن و اجاره انواع آپارتمان، خانه، زمین و مغازه است.</div><div style="margin-top:12px;font-size:14px;color:#86868b;">- تیم ما پیش از هر معامله، مدارک و وضعیت حقوقی ملک را به‌دقت بررسی می‌کند تا مسیر شما از انتخاب تا امضای قرارداد، بدون دغدغه طی شود.</div></blockquote></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:0px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:70px;"><h2 style="color:#1d1d1f;font-size:34px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">هر آنچه برای یک معامله مطمئن لازم دارید</h2></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:20px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:45px;box-shadow:none;padding:40px 40px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">شفافیت کامل</div><div style="font-size:16px;color:#515154;line-height:1.8;">قیمت‌گذاری واقعی و بدون واسطه‌های غیرضروری.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">مشاوره رایگان</div><div style="font-size:16px;color:#515154;line-height:1.8;">همراهی تا لحظه امضای قرارداد.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">پاسخگویی سریع</div><div style="font-size:16px;color:#515154;line-height:1.8;">در دسترس بودن مستقیم تیم گذرنامه.</div></blockquote></div></div></section><section class="va-section" style="background:#f5f5f7;opacity:1;border-radius:0px;box-shadow:none;padding:100px 40px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:800px;max-width:100%; --dur:1.4s; --delay:0s; --blur:20px; --offset:35px;"><h2 style="color:#1d1d1f;font-size:34px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">چرخش 360 درجه املاک</h2></div><div class="va-item anim-fadeLeft" style="width:800px;max-width:100%; --dur:1.4s; --delay:0.2s; --blur:40px; --offset:60px;"><div class="va-360" data-src="360.jpg" data-fov="112" style="width:100%;height:400px;border-radius:18px;position:relative;overflow:hidden;touch-action:none;box-shadow:0 20px 50px rgba(0,0,0,.18);"></div></div></div></section><section class="va-section" style="background:#f5f5f7;opacity:1;border-radius:0px;box-shadow:none;padding:90px 60px;" id="Contact"><div style="display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeDown" style="width:820px;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:20px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:26px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">گذرنامه شما پیش به سوی خانه شایسته</h2></div><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:40px; --offset:60px;"><iframe style="width:100%;height:360px;border:0;border-radius:30px;box-shadow:0 10px 30px rgba(0,0,0,.12);" loading="lazy" src="https://www.google.com/maps?q=34.34618516665176%2C%2047.09250775643902&output=embed"></iframe></div><div class="va-item anim-fadeUp" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.4s; --blur:20px; --offset:40px;"><div style="display:inline-flex;align-items:flex-start;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;"><span style="font-size:1.3em;line-height:1;">📍</span><span>آدرس<br><span style="font-weight:600;">کرمانشاه، بلوار آل‌آقا(گذرنامه)، روبه‌روی بانک صادرات، نبش کوی ۱۲۷،املاک گذرنانه</span></span></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:14px; --offset:50px;"><a href="mailto:info@amlak-gozarnameh.ir" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">✉️</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">info@amlak-gozarnameh.ir</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.65s; --blur:14px; --offset:60px;"><a href="tel:09189107805" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09189107805</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:14px; --offset:70px;"><a href="tel:09183206042" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09183206042</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.95s; --blur:30px; --offset:80px;"><a href="https://maps.app.goo.gl/fk2GwXjNCMVRYHZx5" class="va-btn" style="background:rgba(0,0,0,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">باز کردن نقشه</a></div></div></section><section class="va-section" style="background:rgba(29,29,31,0);opacity:1;border-radius:0px;box-shadow:none;padding:40px 60px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:10px; --offset:25px;"><p style="color:rgba(0,0,0,1);font-size:17px;font-family:inherit;line-height:1.85;margin:0;">© تمامی حقوق محفوظ است.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-radius:0px;box-shadow:none;padding:20px 10px;position:fixed;top:0;left:0;right:0;z-index:9998;opacity:0;transform:translateY(-14px);transition:opacity .1s linear, transform .1s linear;" data-sticky="always" data-reveal="1" data-reveal-offset="0" data-reveal-distance="220"><div style="display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-float" style="width:30px;max-width:100%; --dur:5s; --delay:0s; --blur:14px; --offset:7px;"><img src="icon.svg" style="width:100%;height:auto;object-fit:cover;border-radius:18px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-float" style="width:auto;max-width:100%; --dur:5s; --delay:0s; --blur:10px; --offset:10px;"><h3 style="color:#1d1d1f;font-size:20px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;"><a href="#Icon" style="color:inherit;text-decoration:none;">املاک گذرنامه</a></h3></div></div></section>
+<div id="vaProgressBar" style="position:fixed;top:0;right:0;left:0;height:3px;background:#0071e3;width:0%;z-index:9999;"></div><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:10px 40px;min-height:300px;" id="Icon"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:0.9s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-float" style="width:250px;max-width:100%; --dur:5s; --delay:0.45s; --blur:20px; --offset:14px;"><img src="icon.svg" style="width:100%;height:auto;object-fit:cover;border-radius:28px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:40px;"><h2 style="color:#1d1d1f;font-size:30px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">املاک گذرنامه</h2></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:50px;"><p style="color:#515154;font-size:14px;font-family:inherit;line-height:1.85;margin:0;">در دنیایی که هر ملک یک داستان است، ما دروازه‌بان انتخاب‌های شما هستیم؛ از جست‌وجو تا امضای قرارداد، با دقتی که در خور سرمایه‌ی شماست.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:50px 24px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:20px; --offset:50px;"><a href="#About" class="va-btn" style="background:rgba(47,93,237,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">بیشتر بدانید</a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:20px; --offset:50px;"><a href="#Contact" class="va-btn" style="background:rgba(47,95,237,0.12);color:rgba(47,95,237,1);border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">دریافت مشاوره</a></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:nullpx;box-shadow:none;padding:50px 40px;" id="About"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:60px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0s; --blur:20px; --offset:60px;"><img src="design.jpg" style="width:100%;height:auto;object-fit:cover;border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.18);border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeLeft" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:38px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">درباره ما</h2></div><div class="va-item anim-fadeUp" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:60px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;"></div><div style="font-size:16px;color:#515154;line-height:1.8;">املاک گذرنامه با تکیه بر سال‌ها تجربه در بازار ملک کرمانشاه، همراه مطمئنی برای خرید، فروش، رهن و اجاره انواع آپارتمان، خانه، زمین و مغازه است.</div><div style="margin-top:12px;font-size:14px;color:#86868b;">- تیم ما پیش از هر معامله، مدارک و وضعیت حقوقی ملک را به‌دقت بررسی می‌کند تا مسیر شما از انتخاب تا امضای قرارداد، بدون دغدغه طی شود.</div></blockquote></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:0px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:70px;"><h2 style="color:#1d1d1f;font-size:34px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">هر آنچه برای یک معامله مطمئن لازم دارید</h2></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:20px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:45px;box-shadow:none;padding:40px 40px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">شفافیت کامل</div><div style="font-size:16px;color:#515154;line-height:1.8;">قیمت‌گذاری واقعی و بدون واسطه‌های غیرضروری.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">مشاوره رایگان</div><div style="font-size:16px;color:#515154;line-height:1.8;">همراهی تا لحظه امضای قرارداد.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">پاسخگویی سریع</div><div style="font-size:16px;color:#515154;line-height:1.8;">در دسترس بودن مستقیم تیم گذرنامه.</div></blockquote></div></div></section><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:100px 40px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:800px;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:20px; --offset:50px;"><h2 style="color:#1d1d1f;font-size:34px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">چرخش 360 درجه املاک</h2></div><div class="va-item anim-fadeLeft" style="width:800px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:40px; --offset:60px;"><div class="va-360" data-src="360.jpg" style="width:100%;height:400px;border-radius:18px;position:relative;overflow:hidden;touch-action:none;box-shadow:0 20px 50px rgba(0,0,0,.18);background:#000;"><div class="va-360-loading"><span class="va-360-spinner"></span></div></div></div></div></section><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:90px 60px;" id="Contact"><div style="display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeDown" style="width:820px;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:20px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:26px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">گذرنامه شما پیش به سوی خانه شایسته</h2></div><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:40px; --offset:60px;"><iframe style="width:100%;height:360px;border:0;border-radius:30px;box-shadow:0 10px 30px rgba(0,0,0,.12);" loading="lazy" src="https://www.google.com/maps?q=34.34618516665176%2C%2047.09250775643902&output=embed"></iframe></div><div class="va-item anim-fadeLeft" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.4s; --blur:20px; --offset:50px;"><div style="display:inline-flex;align-items:flex-start;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;"><span style="font-size:1.3em;line-height:1;">📍</span><span>آدرس<br><span style="font-weight:600;">کرمانشاه، بلوار آل‌آقا(گذرنامه)، روبه‌روی بانک صادرات، نبش کوی ۱۲۷،املاک گذرنانه</span></span></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:14px; --offset:50px;"><a href="mailto:info@amlak-gozarnameh.ir" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">✉️</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">info@amlak-gozarnameh.ir</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.65s; --blur:14px; --offset:60px;"><a href="tel:09189107805" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09189107805</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:14px; --offset:70px;"><a href="tel:09183206042" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09183206042</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.95s; --blur:30px; --offset:80px;"><a href="https://maps.app.goo.gl/fk2GwXjNCMVRYHZx5" class="va-btn" style="background:rgba(0,0,0,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">باز کردن نقشه</a></div></div></section><section class="va-section" style="background:rgba(29,29,31,0);opacity:1;border-radius:0px;box-shadow:none;padding:40px 60px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:10px; --offset:25px;"><p style="color:rgba(0,0,0,1);font-size:17px;font-family:inherit;line-height:1.85;margin:0;">© تمامی حقوق محفوظ است.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-radius:0px;box-shadow:none;padding:20px 10px;position:fixed;top:0;left:0;right:0;z-index:9998;opacity:0;transform:translateY(-14px);transition:opacity .1s linear, transform .1s linear;" data-sticky="always" data-reveal="1" data-reveal-offset="0" data-reveal-distance="220"><div style="display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-float" style="width:30px;max-width:100%; --dur:5s; --delay:0s; --blur:14px; --offset:7px;"><img src="icon.svg" style="width:100%;height:auto;object-fit:cover;border-radius:18px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-float" style="width:auto;max-width:100%; --dur:5s; --delay:0s; --blur:10px; --offset:10px;"><h3 style="color:#1d1d1f;font-size:20px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;"><a href="#Icon" style="color:inherit;text-decoration:none;">املاک گذرنامه</a></h3></div></div></section>
 <script>
 function vaInitAnimations(root, scrollRoot){
   var items = root.querySelectorAll('.va-item:not(.anim-none):not(.anim-float)');
@@ -45,7 +45,7 @@ function vaInitProgressBar(scrollTarget, barEl){
     var pct = max>0 ? (scrollTop/max)*100 : 0;
     barEl.style.width = pct+'%';
   }
-  (scrollTarget===window?window:scrollTarget).addEventListener('scroll', update, {passive:true});
+  (scrollTarget===window?window:scrollTarget).addEventListener('scroll', update);
   update();
 }
 function vaInitScrollReveal(root, scrollTarget){
@@ -125,170 +125,254 @@ function vaInitCommentForms(root){
     setInterval(load, 60000);
   });
 }
-/* ---------------------------------------------------------------------
-   Lightweight raw-WebGL 360 panorama viewer.
-   Replaces the previous Three.js-based viewer (which loaded an entire
-   ~600KB 3D library just to show one equirectangular photo). This does
-   the same job — a full-screen quad + a fragment shader that ray-casts
-   each pixel into the panorama texture — with zero external dependencies.
---------------------------------------------------------------------- */
 function va360Init(root){
+  /* True spherical (equirectangular) 360 viewer — the same projection model
+     Google Maps/Street View uses: a virtual camera sits at the center of a
+     sphere and looks outward; every screen pixel is ray-cast through that
+     camera and used to sample the equirectangular panorama with a WebGL
+     shader. This gives a mathematically correct, perfectly smooth pan/zoom
+     with no seams, no tiling artifacts and no pole distortion — unlike a
+     CSS-tile approximation. Pure WebGL, no external library. */
   var viewers = root.querySelectorAll('.va-360');
   viewers.forEach(function(el){
     if(el.__vaBound) return;
     el.__vaBound = true;
-
     var src = el.dataset.src;
-    var fovDeg = parseFloat(el.dataset.fov) || 75;
+    if(!src){ el.innerHTML=''; return; }
+
+    el.innerHTML = '';
+    var stage = document.createElement('div');
+    stage.className = 'va-360-stage';
+    el.appendChild(stage);
 
     var canvas = document.createElement('canvas');
-    canvas.style.cssText = 'width:100%;height:100%;display:block;cursor:grab;touch-action:none;';
-    el.appendChild(canvas);
+    canvas.className = 'va-360-canvas';
+    stage.appendChild(canvas);
 
     var gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-    if(!gl) return;
+    if(!gl){
+      /* Extremely rare fallback: no WebGL available at all */
+      el.innerHTML = '<img src="'+src.replace(/"/g,'&quot;')+'" style="width:100%;height:100%;object-fit:cover;">';
+      return;
+    }
 
-    var vsSource = [
-      'attribute vec2 aPos;',
-      'void main(){ gl_Position = vec4(aPos, 0.0, 1.0); }'
-    ].join('\n');
-
-    var fsSource = [
-      'precision highp float;',
-      'uniform vec2 uResolution;',
-      'uniform float uYaw;',
-      'uniform float uPitch;',
-      'uniform float uFovY;',
-      'uniform sampler2D uTex;',
-      'const float PI = 3.14159265359;',
-      'void main(){',
-      '  vec2 ndc = (gl_FragCoord.xy / uResolution) * 2.0 - 1.0;',
-      '  float aspect = uResolution.x / uResolution.y;',
-      '  float t = tan(uFovY * 0.5);',
-      '  vec3 dir = normalize(vec3(ndc.x * aspect * t, ndc.y * t, -1.0));',
-      '  float cp = cos(uPitch), sp = sin(uPitch);',
-      '  vec3 d1 = vec3(dir.x, dir.y*cp - dir.z*sp, dir.y*sp + dir.z*cp);',
-      '  float cy = cos(uYaw), sy = sin(uYaw);',
-      '  vec3 d2 = vec3(d1.x*cy + d1.z*sy, d1.y, -d1.x*sy + d1.z*cy);',
-      '  float lon = atan(d2.x, -d2.z);',
-      '  float lat = asin(clamp(d2.y, -1.0, 1.0));',
-      '  vec2 uv = vec2(lon/(2.0*PI) + 0.5, 0.5 - lat/PI);',
-      '  gl_FragColor = texture2D(uTex, uv);',
-      '}'
-    ].join('\n');
+    var vertSrc = 'attribute vec2 aPos;varying vec2 vUv;void main(){vUv=aPos;gl_Position=vec4(aPos,0.0,1.0);}';
+    var fragSrc = 'precision highp float;'+
+      'varying vec2 vUv;'+
+      'uniform sampler2D uTex;'+
+      'uniform float uYaw;'+
+      'uniform float uPitch;'+
+      'uniform float uTanFov;'+
+      'uniform float uAspect;'+
+      'const float PI=3.14159265359;'+
+      'void main(){'+
+      '  vec3 dir=normalize(vec3(vUv.x*uTanFov*uAspect, vUv.y*uTanFov, -1.0));'+
+      '  float cp=cos(uPitch), sp=sin(uPitch);'+
+      '  vec3 d1=vec3(dir.x, dir.y*cp - dir.z*sp, dir.y*sp + dir.z*cp);'+
+      '  float cy=cos(uYaw), sy=sin(uYaw);'+
+      '  vec3 d2=vec3(d1.x*cy + d1.z*sy, d1.y, -d1.x*sy + d1.z*cy);'+
+      '  float lon=atan(d2.x, -d2.z);'+
+      '  float lat=asin(clamp(d2.y,-1.0,1.0));'+
+      '  vec2 uv=vec2(lon/(2.0*PI)+0.5, 0.5 + lat/PI);'+
+      '  gl_FragColor=texture2D(uTex, uv);'+
+      '}';
 
     function compile(type, source){
       var sh = gl.createShader(type);
       gl.shaderSource(sh, source);
       gl.compileShader(sh);
-      if(!gl.getShaderParameter(sh, gl.COMPILE_STATUS)){
-        console.error('va360 shader error:', gl.getShaderInfoLog(sh));
-        gl.deleteShader(sh);
-        return null;
-      }
       return sh;
     }
-    var vs = compile(gl.VERTEX_SHADER, vsSource);
-    var fs = compile(gl.FRAGMENT_SHADER, fsSource);
-    if(!vs || !fs) return;
-
     var prog = gl.createProgram();
-    gl.attachShader(prog, vs);
-    gl.attachShader(prog, fs);
+    gl.attachShader(prog, compile(gl.VERTEX_SHADER, vertSrc));
+    gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fragSrc));
     gl.linkProgram(prog);
-    if(!gl.getProgramParameter(prog, gl.LINK_STATUS)){
-      console.error('va360 program link error:', gl.getProgramInfoLog(prog));
-      return;
-    }
     gl.useProgram(prog);
 
-    var quad = new Float32Array([-1,-1, 1,-1, -1,1, 1,1]);
     var buf = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-    gl.bufferData(gl.ARRAY_BUFFER, quad, gl.STATIC_DRAW);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
     var aPos = gl.getAttribLocation(prog, 'aPos');
     gl.enableVertexAttribArray(aPos);
     gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
 
-    var uResolution = gl.getUniformLocation(prog, 'uResolution');
-    var uYaw = gl.getUniformLocation(prog, 'uYaw');
-    var uPitch = gl.getUniformLocation(prog, 'uPitch');
-    var uFovY = gl.getUniformLocation(prog, 'uFovY');
-    var uTex = gl.getUniformLocation(prog, 'uTex');
+    var uYaw = gl.getUniformLocation(prog,'uYaw');
+    var uPitch = gl.getUniformLocation(prog,'uPitch');
+    var uTanFov = gl.getUniformLocation(prog,'uTanFov');
+    var uAspect = gl.getUniformLocation(prog,'uAspect');
+    var uTex = gl.getUniformLocation(prog,'uTex');
 
     var texture = gl.createTexture();
-    gl.bindTexture(gl.TEXTURE_2D, texture);
-    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array([0,0,0,255]));
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    var texReady = false;
 
-    var textureReady = false;
-    var img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = function(){
-      gl.bindTexture(gl.TEXTURE_2D, texture);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
-      textureReady = true;
-      requestRender();
-    };
-    img.src = src;
+    var yaw = 0, pitch = 0, fov = 90*Math.PI/180; // vertical fov, radians
+    var minFov = 25*Math.PI/180, maxFov = 100*Math.PI/180;
+    var rafPending = false;
 
-    var lonDeg = 0, latDeg = 0, isDragging = false, downX = 0, downY = 0, downLon = 0, downLat = 0;
-    function down(x,y){ isDragging=true; downX=x; downY=y; downLon=lonDeg; downLat=latDeg; canvas.style.cursor='grabbing'; }
-    function move(x,y){ if(!isDragging) return; lonDeg = (downX-x)*0.18 + downLon; latDeg = (y-downY)*0.18 + downLat; latDeg = Math.max(-85, Math.min(85, latDeg)); requestRender(); }
-    function up(){ isDragging=false; canvas.style.cursor='grab'; }
-
-    canvas.addEventListener('mousedown', function(e){ down(e.clientX, e.clientY); });
-    window.addEventListener('mousemove', function(e){ move(e.clientX, e.clientY); });
-    window.addEventListener('mouseup', up);
-    canvas.addEventListener('touchstart', function(e){ if(e.touches.length===1){ down(e.touches[0].clientX, e.touches[0].clientY); } }, {passive:true});
-    canvas.addEventListener('touchmove', function(e){ if(e.touches.length===1){ move(e.touches[0].clientX, e.touches[0].clientY); } }, {passive:true});
-    canvas.addEventListener('touchend', up);
-
-    /* Gyroscope look-around */
-    var gyroOn = false, alphaOffset = null;
-    function onOrientation(ev){
-      if(ev.alpha===null || ev.beta===null) return;
-      if(alphaOffset===null) alphaOffset = ev.alpha;
-      lonDeg = -(ev.alpha - alphaOffset);
-      latDeg = Math.max(-85, Math.min(85, ((ev.beta||0) - 90) * -1));
-      requestRender();
+    function scheduleRender(){
+      if(rafPending) return;
+      rafPending = true;
+      requestAnimationFrame(doRender);
     }
-    function enableGyro(){
-      var start = function(){
-        window.addEventListener('deviceorientation', onOrientation);
-        gyroOn = true; alphaOffset = null;
-        gyroBtn.textContent='📱 غیرفعال‌سازی ژیروسکوپ';
-        gyroBtn.classList.add('on');
-      };
-      if(typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function'){
-        DeviceOrientationEvent.requestPermission().then(function(state){ if(state==='granted') start(); }).catch(function(){});
-      } else if(typeof DeviceOrientationEvent !== 'undefined'){
-        start();
+    function doRender(){
+      rafPending = false;
+      if(!texReady) return;
+      gl.clearColor(0,0,0,1);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.uniform1f(uYaw, yaw);
+      gl.uniform1f(uPitch, pitch);
+      gl.uniform1f(uTanFov, Math.tan(fov/2));
+      gl.uniform1f(uAspect, canvas.width/canvas.height);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    }
+
+    function resize(){
+      var w = el.clientWidth||1, h = el.clientHeight||1;
+      var dpr = Math.min(window.devicePixelRatio||1, 2);
+      var cw = Math.max(1, Math.round(w*dpr)), ch = Math.max(1, Math.round(h*dpr));
+      if(canvas.width!==cw || canvas.height!==ch){
+        canvas.width = cw; canvas.height = ch;
+        gl.viewport(0,0,cw,ch);
       }
-    }
-    function disableGyro(){
-      window.removeEventListener('deviceorientation', onOrientation);
-      gyroOn = false; alphaOffset = null;
-      gyroBtn.textContent='📱 فعال‌سازی ژیروسکوپ';
-      gyroBtn.classList.remove('on');
+      scheduleRender();
     }
 
-    var gyroBtn = document.createElement('button');
-    gyroBtn.type = 'button';
-    gyroBtn.className = 'va-360-gyro-btn';
-    gyroBtn.textContent = '📱 فعال‌سازی ژیروسکوپ';
-    gyroBtn.addEventListener('click', function(e){ e.stopPropagation(); if(gyroOn) disableGyro(); else enableGyro(); });
-    el.appendChild(gyroBtn);
+    var loading = document.createElement('div');
+    loading.className = 'va-360-loading';
+    loading.innerHTML = '<span class="va-360-spinner"></span>';
+    el.appendChild(loading);
+
+    function showPlainImageFallback(){
+      /* Used if the browser refuses to upload this image into WebGL (e.g. an
+         externally-hosted image without CORS headers). A plain pannable image
+         is far better than a blank black box. */
+      el.innerHTML = '';
+      var img2 = document.createElement('img');
+      img2.src = src;
+      img2.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+      el.appendChild(img2);
+    }
+
+    function uploadTexture(imgEl){
+      /* Panorama photos from phones/stock sites are frequently far larger
+         than what WebGL can accept as a single texture (commonly capped at
+         2048–8192px depending on the device's GPU). Uploading an oversized
+         image doesn't throw a JS error — it fails silently at the driver
+         level and leaves the texture empty, which renders as solid black.
+         So: always downscale to a safe size first. */
+      var maxDim = Math.min(gl.getParameter(gl.MAX_TEXTURE_SIZE) || 4096, 4096);
+      var srcW = imgEl.naturalWidth || imgEl.width, srcH = imgEl.naturalHeight || imgEl.height;
+      var source = imgEl;
+      if(srcW > maxDim || srcH > maxDim){
+        var scale = maxDim / Math.max(srcW, srcH);
+        var off = document.createElement('canvas');
+        off.width = Math.max(1, Math.round(srcW*scale));
+        off.height = Math.max(1, Math.round(srcH*scale));
+        var octx = off.getContext('2d');
+        octx.drawImage(imgEl, 0, 0, off.width, off.height);
+        source = off;
+      }
+      try{
+        gl.bindTexture(gl.TEXTURE_2D, texture);
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source);
+        var glErr = gl.getError();
+        if(glErr !== gl.NO_ERROR) throw new Error('gl error '+glErr);
+      }catch(err){
+        showPlainImageFallback();
+        return;
+      }
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, texture);
+      gl.uniform1i(uTex, 0);
+      texReady = true;
+      if(loading.parentNode) loading.parentNode.removeChild(loading);
+      scheduleRender();
+    }
+
+    function build(){
+      resize();
+      var img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function(){ uploadTexture(img); };
+      img.onerror = function(){
+        /* Retry once without crossOrigin, in case the host blocks
+           CORS-tagged requests outright but allows plain <img> loads */
+        var retry = new Image();
+        retry.onload = function(){ uploadTexture(retry); };
+        retry.onerror = function(){ loading.innerHTML = '<span class="va-360-error">تصویر بارگذاری نشد</span>'; };
+        retry.src = src;
+      };
+      img.src = src;
+    }
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if(en.isIntersecting){ build(); io.disconnect(); } });
+      }, {rootMargin:'200px'});
+      io.observe(el);
+    } else { build(); }
+
+    if('ResizeObserver' in window){
+      new ResizeObserver(resize).observe(el);
+    } else { window.addEventListener('resize', resize); }
+
+    function clampPitch(p){ var lim=85*Math.PI/180; return Math.max(-lim, Math.min(lim, p)); }
+
+    /* Drag to look around (grab-the-panorama feel, like Street View) + pinch/wheel to zoom */
+    var pointers = {}, dragging=false, startX=0, startY=0, startYaw=0, startPitch=0, pinchDist=0, pinchFov=fov;
+    function pids(){ return Object.keys(pointers); }
+    function dist2(){
+      var k = pids(); if(k.length<2) return 0;
+      var a=pointers[k[0]], b=pointers[k[1]];
+      return Math.hypot(a.x-b.x, a.y-b.y);
+    }
+    canvas.addEventListener('pointerdown', function(e){
+      pointers[e.pointerId] = {x:e.clientX,y:e.clientY};
+      canvas.setPointerCapture(e.pointerId);
+      var k = pids();
+      if(k.length===1){ dragging=true; startX=e.clientX; startY=e.clientY; startYaw=yaw; startPitch=pitch; canvas.classList.add('dragging'); }
+      else if(k.length===2){ dragging=false; pinchDist=dist2(); pinchFov=fov; }
+    });
+    canvas.addEventListener('pointermove', function(e){
+      if(!pointers[e.pointerId]) return;
+      pointers[e.pointerId] = {x:e.clientX,y:e.clientY};
+      var k = pids();
+      if(k.length===2){
+        var d = dist2();
+        if(pinchDist>0){ fov = Math.min(maxFov, Math.max(minFov, pinchFov*(pinchDist/d))); scheduleRender(); }
+      } else if(dragging){
+        var dx = e.clientX-startX, dy = e.clientY-startY;
+        var rectW = canvas.clientWidth||1, rectH = canvas.clientHeight||1;
+        var hfov = 2*Math.atan(Math.tan(fov/2)*(canvas.width/canvas.height));
+        yaw = startYaw + (dx/rectW)*hfov;
+        pitch = clampPitch(startPitch + (dy/rectH)*fov);
+        scheduleRender();
+      }
+    });
+    function release(e){
+      delete pointers[e.pointerId];
+      if(pids().length<1){ dragging=false; canvas.classList.remove('dragging'); }
+    }
+    canvas.addEventListener('pointerup', release);
+    canvas.addEventListener('pointercancel', release);
+    canvas.addEventListener('dblclick', function(){ yaw=0; pitch=0; fov=90*Math.PI/180; scheduleRender(); });
+    canvas.addEventListener('wheel', function(e){
+      e.preventDefault();
+      fov = Math.min(maxFov, Math.max(minFov, fov + e.deltaY*0.001));
+      scheduleRender();
+    }, {passive:false});
 
     var hint = document.createElement('span');
     hint.className = 'va-360-hint';
-    hint.textContent = 'بکشید یا گوشی را حرکت دهید برای چرخش 360°';
+    hint.textContent = 'بکشید (بالا/پایین و چپ/راست) یا اسکرول کنید برای چرخش 360°';
     el.appendChild(hint);
+    setTimeout(function(){ hint.style.opacity='0'; }, 3500);
 
-    /* Fullscreen toggle */
+    /* Fullscreen toggle uses the browser's own default fullscreen API */
     function isFsSupported(){
       return !!(el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen);
     }
@@ -303,22 +387,14 @@ function va360Init(root){
       var ext = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
       if(ext) ext.call(document);
     }
-    function resizeToContainer(){
-      var w = el.clientWidth, h = el.clientHeight;
-      if(!w || !h) return;
-      var dpr = Math.min(window.devicePixelRatio||1, 2);
-      canvas.width = w*dpr;
-      canvas.height = h*dpr;
-      gl.viewport(0,0,canvas.width,canvas.height);
-      requestRender();
-    }
-    var fsBtn;
     if(isFsSupported()){
-      fsBtn = document.createElement('button');
+      var fsExpandSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>';
+      var fsCollapseSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v3a2 2 0 0 1-2 2H4M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3"/></svg>';
+      var fsBtn = document.createElement('button');
       fsBtn.type = 'button';
       fsBtn.className = 'va-360-fs-btn';
       fsBtn.title = 'نمایش تمام‌صفحه';
-      fsBtn.textContent = '⛶';
+      fsBtn.innerHTML = fsExpandSvg;
       fsBtn.addEventListener('click', function(e){
         e.stopPropagation();
         if(currentFsElement()===el) exitFs(); else requestFs();
@@ -327,46 +403,12 @@ function va360Init(root){
       ['fullscreenchange','webkitfullscreenchange','mozfullscreenchange','MSFullscreenChange'].forEach(function(evName){
         document.addEventListener(evName, function(){
           var isFs = currentFsElement()===el;
-          el.classList.toggle('va-360-fullscreen', isFs);
-          fsBtn.textContent = isFs ? '✕' : '⛶';
+          fsBtn.innerHTML = isFs ? fsCollapseSvg : fsExpandSvg;
           fsBtn.title = isFs ? 'خروج از تمام‌صفحه' : 'نمایش تمام‌صفحه';
-          setTimeout(resizeToContainer, 60);
+          setTimeout(resize, 50);
         });
       });
     }
-
-    /* Render only when something actually changed (drag, gyro, resize) —
-       and only while the viewer is visible on screen — instead of an
-       endless requestAnimationFrame loop like the old Three.js version. */
-    var renderQueued = false, isVisible = false;
-    function renderFrame(){
-      renderQueued = false;
-      if(!textureReady) return;
-      gl.uniform2f(uResolution, canvas.width, canvas.height);
-      gl.uniform1f(uYaw, lonDeg * Math.PI/180);
-      gl.uniform1f(uPitch, latDeg * Math.PI/180);
-      gl.uniform1f(uFovY, fovDeg * Math.PI/180);
-      gl.activeTexture(gl.TEXTURE0);
-      gl.bindTexture(gl.TEXTURE_2D, texture);
-      gl.uniform1i(uTex, 0);
-      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-    }
-    function requestRender(){
-      if(renderQueued || !isVisible) return;
-      renderQueued = true;
-      requestAnimationFrame(renderFrame);
-    }
-
-    var vis = new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        isVisible = entry.isIntersecting;
-        if(isVisible) requestRender();
-      });
-    }, {threshold: 0.01});
-    vis.observe(el);
-
-    window.addEventListener('resize', resizeToContainer);
-    resizeToContainer();
   });
 }
 function vaSmoothAnchors(root){
