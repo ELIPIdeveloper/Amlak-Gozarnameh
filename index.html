@@ -1,679 +1,475 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>اوی‌استور | فروشگاه اینترنتی</title>
-<meta name="description" content="فروشگاه اینترنتی اوی‌استور — خرید امن و سریع">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F6E5D'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23FAF9F5' font-family='sans-serif'%3EA%3C/text%3E%3C/svg%3E">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>املاک گذرنامه | خرید، فروش، رهن و اجاره ملک در کرمانشاه</title><meta name="description" content="املاک گذرنامه در کرمانشاه، بلوار آل‌آقا(گذرنامه) روبه‌روی بانک صادرات، نبش کوی ۱۲۷. خرید، فروش، رهن، اجاره آپارتمان، خانه، زمین، مغازه و مشاوره تخصصی املاک با بهترین قیمت و معاملات مطمئن."><meta name="keywords" content="املاک گذرنامه, املاک کرمانشاه, خرید خانه کرمانشاه, فروش آپارتمان کرمانشاه, رهن و اجاره کرمانشاه, مشاور املاک, بلوار آل آقا"><meta name="author" content="املاک گذرنامه"><meta name="robots" content="index, follow"><meta name="theme-color" content="#f5f5f7"><link rel="canonical" href="https://amlak-gozarnameh.ir"><link rel="icon" href="favicon-v2.ico"><meta property="og:type" content="website"><meta property="og:title" content="املاک گذرنامه | خرید، فروش، رهن و اجاره ملک در کرمانشاه"><meta property="og:description" content="املاک گذرنامه در کرمانشاه، بلوار آل‌آقا(گذرنامه) روبه‌روی بانک صادرات، نبش کوی ۱۲۷. خرید، فروش، رهن، اجاره آپارتمان، خانه، زمین، مغازه و مشاوره تخصصی املاک با بهترین قیمت و معاملات مطمئن."><meta property="og:url" content="https://amlak-gozarnameh.ir"><meta property="og:image" content="design.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="املاک گذرنامه | خرید، فروش، رهن و اجاره ملک در کرمانشاه"><meta name="twitter:description" content="املاک گذرنامه در کرمانشاه، بلوار آل‌آقا(گذرنامه) روبه‌روی بانک صادرات، نبش کوی ۱۲۷. خرید، فروش، رهن، اجاره آپارتمان، خانه، زمین، مغازه و مشاوره تخصصی املاک با بهترین قیمت و معاملات مطمئن."><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"املاک گذرنامه | خرید، فروش، رهن و اجاره ملک در کرمانشاه","description":"املاک گذرنامه در کرمانشاه، بلوار آل‌آقا(گذرنامه) روبه‌روی بانک صادرات، نبش کوی ۱۲۷. خرید، فروش، رهن، اجاره آپارتمان، خانه، زمین، مغازه و مشاوره تخصصی املاک با بهترین قیمت و معاملات مطمئن.","knowsAbout":"Real Estate Agency","url":"https://amlak-gozarnameh.ir"}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-
-  :root{
-    --bg:#F5F7F4;
-    --surface:#FFFFFF;
-    --ink:#16211C;
-    --ink-soft:#5B6960;
-    --ink-faint:#8B9790;
-    --accent:#0F6E5D;
-    --accent-dark:#0B4F42;
-    --accent-tint:#E4F0EC;
-    --gold:#D98E2B;
-    --gold-tint:#FBEED9;
-    --danger:#C2452F;
-    --danger-tint:#FBE7E2;
-    --line:#E1E6DF;
-    --radius:16px;
-    --shadow:0 8px 28px -12px rgba(22,33,28,.18);
-    --shadow-lg:0 20px 60px -20px rgba(22,33,28,.35);
-    --header-h:64px;
-    --nav-h:64px;
-  }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    background:var(--bg);
-    color:var(--ink);
-    font-family:'Vazirmatn',sans-serif;
-    -webkit-font-smoothing:antialiased;
-    min-height:100vh;
-  }
-  img{max-width:100%;display:block;}
-  button{font-family:inherit;cursor:pointer;}
-  input,textarea{font-family:inherit;}
-  a{color:inherit;}
-  .num{font-variant-numeric:tabular-nums;}
-
-  /* ===== Top bar ===== */
-  header.site-head{
-    position:sticky;top:0;z-index:40;
-    background:rgba(245,247,244,.92);
-    backdrop-filter:blur(10px);
-    border-bottom:1px solid var(--line);
-  }
-  .head-inner{
-    max-width:1200px;margin:0 auto;padding:12px 16px;
-    display:flex;align-items:center;gap:12px;
-  }
-  .brand{
-    display:flex;align-items:center;gap:8px;
-    font-weight:900;font-size:19px;letter-spacing:-.3px;
-    flex-shrink:0;
-    text-decoration:none;color:var(--ink);
-    background:none;border:none;padding:0;
-  }
-  .brand-mark{
-    width:32px;height:32px;border-radius:9px;
-    background:var(--accent);color:#fff;
-    display:flex;align-items:center;justify-content:center;
-    font-weight:900;font-size:16px;flex-shrink:0;
-  }
-  .search-wrap{flex:1;position:relative;max-width:520px;}
-  .search-wrap input{
-    width:100%;padding:10px 40px 10px 14px;
-    border-radius:999px;border:1.5px solid var(--line);
-    background:var(--surface);font-size:14px;color:var(--ink);
-    outline:none;transition:border-color .15s, box-shadow .15s;
-  }
-  .search-wrap input:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-tint);}
-  .search-wrap svg{position:absolute;right:13px;top:50%;transform:translateY(-50%);opacity:.5;pointer-events:none;}
-  .icon-btn{
-    position:relative;flex-shrink:0;
-    display:flex;align-items:center;justify-content:center;
-    background:var(--ink);color:#fff;border:none;
-    width:40px;height:40px;border-radius:999px;
-    transition:transform .12s;
-  }
-  .icon-btn:active{transform:scale(.94);}
-  .cart-badge{
-    position:absolute;top:-4px;left:-4px;
-    background:var(--gold);color:#241505;
-    font-size:10.5px;font-weight:800;
-    min-width:18px;height:18px;border-radius:999px;
-    display:flex;align-items:center;justify-content:center;
-    padding:0 4px;border:2px solid var(--bg);
-  }
-
-  /* ===== App shell / pages ===== */
-  .app{max-width:1200px;margin:0 auto;padding:0 0 calc(var(--nav-h) + 24px);}
-  .page{display:none;}
-  .page.active{display:block;}
-
-  /* ===== Home: hero / banners ===== */
-  .banner-slider{
-    padding:16px 16px 4px;
-  }
-  .banner-track{
-    display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;
-    -webkit-overflow-scrolling:touch;padding-bottom:4px;
-    scrollbar-width:none;
-  }
-  .banner-track::-webkit-scrollbar{display:none;}
-  .banner-slide{
-    scroll-snap-align:start;flex:0 0 100%;min-width:100%;
-    border-radius:18px;overflow:hidden;position:relative;
-    background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);
-    color:#fff;padding:26px 22px;min-height:132px;
-    display:flex;flex-direction:column;justify-content:center;gap:6px;
-  }
-  .banner-slide.alt{background:linear-gradient(135deg,#3A3226 0%,var(--ink) 100%);}
-  .banner-slide.gold{background:linear-gradient(135deg,var(--gold) 0%,#B36F16 100%);}
-  .banner-eyebrow{font-size:12px;font-weight:700;opacity:.85;}
-  .banner-slide h2{margin:0;font-size:20px;font-weight:900;letter-spacing:-.3px;}
-  .banner-slide p{margin:0;font-size:13px;opacity:.9;line-height:1.7;max-width:360px;}
-  .banner-dots{display:flex;justify-content:center;gap:6px;margin-top:10px;}
-  .banner-dots span{width:6px;height:6px;border-radius:999px;background:var(--line);transition:background .2s,width .2s;}
-  .banner-dots span.on{background:var(--accent);width:16px;}
-
-  .about-section{
-    margin:22px 16px 4px;padding:20px;background:var(--surface);
-    border:1px solid var(--line);border-radius:var(--radius);
-  }
-  .about-section h3{margin:0 0 8px;font-size:16px;font-weight:800;}
-  .about-section p{margin:0 0 8px;color:var(--ink-soft);font-size:13.5px;line-height:1.9;}
-  .about-section p:last-child{margin-bottom:0;}
-  .trust-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
-  .trust-chip{
-    display:flex;align-items:center;gap:6px;
-    background:var(--accent-tint);color:var(--accent-dark);
-    font-size:12px;font-weight:700;padding:6px 11px;border-radius:999px;
-  }
-
-  .section-title{
-    display:flex;align-items:center;justify-content:space-between;
-    margin:24px 16px 12px;
-  }
-  .section-title h2{font-size:16.5px;font-weight:800;margin:0;}
-  .section-title span{color:var(--ink-faint);font-size:12.5px;}
-  .refresh-link{background:none;border:none;color:var(--accent);font-weight:700;font-size:12.5px;display:flex;align-items:center;gap:4px;padding:0;}
-
-  /* ===== Product grid (shared: home + search) ===== */
-  .grid{
-    display:grid;gap:14px;padding:0 16px;
-    grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-  }
-  .card{
-    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-    overflow:hidden;display:flex;flex-direction:column;
-    transition:box-shadow .2s, transform .2s;
-  }
-  .card:hover{box-shadow:var(--shadow);transform:translateY(-2px);}
-  .card-media{
-    aspect-ratio:1/1;background:var(--accent-tint);position:relative;cursor:zoom-in;
-    overflow:hidden;
-  }
-  .card-media img{width:100%;height:100%;object-fit:cover;transition:transform .35s;}
-  .card:hover .card-media img{transform:scale(1.05);}
-  .card-media .zoom-hint{
-    position:absolute;bottom:8px;left:8px;
-    background:rgba(22,33,28,.65);color:#fff;font-size:10.5px;
-    padding:3px 8px;border-radius:999px;opacity:0;transition:opacity .2s;
-  }
-  .card:hover .zoom-hint{opacity:1;}
-  .card-body{padding:11px 11px 13px;display:flex;flex-direction:column;gap:7px;flex:1;}
-  .card-title{font-size:13.5px;font-weight:700;line-height:1.4;margin:0;
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-  .card-desc{
-    font-size:12px;color:var(--ink-soft);line-height:1.7;margin:0;
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
-  }
-  .card-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:6px;padding-top:4px;flex-wrap:wrap;}
-  .price-tag{font-weight:800;font-size:13px;color:var(--accent-dark);white-space:nowrap;}
-  .add-btn{
-    background:var(--accent);color:#fff;border:none;border-radius:10px;
-    padding:7px 12px;font-size:12px;font-weight:700;flex-shrink:0;
-    transition:background .15s, transform .12s;
-  }
-  .add-btn:hover{background:var(--accent-dark);}
-  .add-btn:active{transform:scale(.95);}
-  .add-btn:disabled{background:var(--ink-faint);cursor:not-allowed;}
-
-  .empty-state, .error-state{
-    text-align:center;padding:60px 20px;color:var(--ink-soft);grid-column:1/-1;
-  }
-  .empty-state h3, .error-state h3{margin:0 0 6px;font-size:16px;color:var(--ink);}
-  .empty-state p, .error-state p{font-size:13px;margin:0;}
-  .skeleton{
-    background:linear-gradient(100deg,var(--surface) 30%,#eef1ec 50%,var(--surface) 70%);
-    background-size:200% 100%;animation:shine 1.3s infinite;
-    border-radius:var(--radius);aspect-ratio:.78;
-  }
-  @keyframes shine{to{background-position:-200% 0;}}
-
-  /* ===== Search page ===== */
-  .search-page-head{padding:16px 16px 4px;}
-  .search-page-head .search-wrap{max-width:none;}
-  .search-page-head input{padding:13px 44px 13px 16px;font-size:15px;}
-  .search-meta{padding:12px 16px;color:var(--ink-faint);font-size:12.5px;}
-
-  /* ===== Cart page ===== */
-  .cart-page-inner{padding:16px;}
-  .cart-page-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
-  .cart-page-head h2{font-size:17px;font-weight:800;margin:0;}
-  .cart-item{
-    display:flex;gap:12px;padding:12px 4px;border-bottom:1px dashed var(--line);
-    background:var(--surface);
-  }
-  .cart-item img{width:56px;height:56px;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--line);}
-  .cart-item-info{flex:1;min-width:0;}
-  .cart-item-info h4{margin:0 0 4px;font-size:13.5px;font-weight:700;}
-  .cart-item-info .line-price{font-size:12.5px;color:var(--ink-faint);}
-  .cart-item-actions{display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
-  .remove-link{background:none;border:none;color:var(--danger);font-size:11.5px;text-decoration:underline;padding:0;}
-  .cart-empty{text-align:center;padding:70px 10px;color:var(--ink-faint);}
-  .cart-empty svg{opacity:.35;margin-bottom:10px;}
-  .cart-list-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:4px 12px;}
-
-  .stepper{
-    display:flex;align-items:center;gap:0;border:1.5px solid var(--line);border-radius:10px;overflow:hidden;
-  }
-  .stepper button{
-    width:30px;height:30px;background:var(--surface);border:none;font-size:16px;font-weight:700;color:var(--ink);
-  }
-  .stepper button:hover{background:var(--accent-tint);}
-  .stepper span{width:32px;text-align:center;font-weight:700;font-size:14px;}
-
-  .receipt-card{
-    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-    padding:16px;margin-top:16px;
-  }
-  .receipt-row{display:flex;justify-content:space-between;font-size:13.5px;color:var(--ink-soft);padding:3px 0;}
-  .receipt-total{display:flex;justify-content:space-between;font-size:17px;font-weight:800;padding-top:8px;margin-top:6px;border-top:1.5px dashed var(--line);}
-  .checkout-btn{
-    width:100%;background:var(--accent);color:#fff;border:none;border-radius:12px;
-    padding:13px;font-size:15px;font-weight:800;margin-top:14px;
-    transition:background .15s;
-  }
-  .checkout-btn:hover{background:var(--accent-dark);}
-  .checkout-btn:disabled{background:var(--ink-faint);cursor:not-allowed;}
-  .back-link{background:none;border:none;color:var(--ink-soft);font-size:13px;font-weight:700;display:flex;align-items:center;gap:5px;padding:0;margin-bottom:14px;}
-
-  /* checkout form */
-  .field{margin-bottom:12px;}
-  .field label{display:block;font-size:12.5px;font-weight:700;color:var(--ink-soft);margin-bottom:5px;}
-  .field input, .field textarea{
-    width:100%;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);
-    font-size:14px;background:var(--bg);color:var(--ink);outline:none;
-    transition:border-color .15s;
-  }
-  .field input:focus, .field textarea:focus{border-color:var(--accent);background:var(--surface);}
-  .field textarea{resize:vertical;min-height:60px;}
-  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-  .form-error{
-    background:var(--danger-tint);color:var(--danger);font-size:12.5px;font-weight:600;
-    padding:9px 12px;border-radius:9px;margin-bottom:12px;display:none;
-  }
-  .form-error.show{display:block;}
-  .checkout-form-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;}
-
-  /* ===== Lightbox ===== */
-  .lightbox{
-    position:fixed;inset:0;background:rgba(16,20,17,.72);
-    display:none;align-items:center;justify-content:center;z-index:80;padding:20px;
-  }
-  .lightbox.open{display:flex;}
-  .lightbox-panel{
-    background:var(--surface);border-radius:20px;max-width:820px;width:100%;
-    max-height:88vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;
-    box-shadow:var(--shadow-lg);position:relative;
-  }
-  @media (max-width:680px){.lightbox-panel{grid-template-columns:1fr;}}
-  .lightbox-img{background:var(--accent-tint);}
-  .lightbox-img img{width:100%;height:100%;object-fit:cover;max-height:420px;}
-  .lightbox-info{padding:24px;display:flex;flex-direction:column;gap:12px;}
-  .lightbox-info h2{margin:0;font-size:20px;font-weight:800;}
-  .lightbox-info p{margin:0;color:var(--ink-soft);font-size:14px;line-height:1.9;}
-  .lightbox-close{
-    position:absolute;top:12px;left:12px;background:var(--surface);
-    border:1px solid var(--line);border-radius:999px;width:34px;height:34px;
-    display:flex;align-items:center;justify-content:center;z-index:2;
-  }
-
-  /* ===== Bottom nav ===== */
-  nav.bottom-nav{
-    position:fixed;bottom:0;left:0;right:0;z-index:50;
-    background:rgba(255,255,255,.96);backdrop-filter:blur(10px);
-    border-top:1px solid var(--line);
-    display:flex;align-items:stretch;
-    padding-bottom:env(safe-area-inset-bottom);
-  }
-  .nav-btn{
-    flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
-    background:none;border:none;color:var(--ink-faint);padding:9px 4px 8px;
-    font-size:11px;font-weight:700;position:relative;
-  }
-  .nav-btn svg{width:22px;height:22px;}
-  .nav-btn.active{color:var(--accent);}
-  .nav-btn .nav-badge{
-    position:absolute;top:2px;left:calc(50% + 4px);
-    background:var(--gold);color:#241505;
-    font-size:10px;font-weight:800;
-    min-width:16px;height:16px;border-radius:999px;
-    display:flex;align-items:center;justify-content:center;padding:0 3px;
-  }
-
-  /* toast */
-  .toast-stack{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:100;display:flex;flex-direction:column;gap:8px;align-items:center;}
-  .toast{
-    background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:13.5px;font-weight:600;
-    box-shadow:var(--shadow);display:flex;align-items:center;gap:8px;
-    animation:toast-in .25s ease;
-  }
-  .toast.err{background:var(--danger);}
-  @keyframes toast-in{from{opacity:0;transform:translateY(-8px);}to{opacity:1;transform:translateY(0);}}
-
-  footer.app-foot{padding:20px 16px 8px;text-align:center;color:var(--ink-faint);font-size:12px;}
-
-
-  .head-inner{justify-content:space-between;}
-
+html{scroll-behavior:smooth;max-width:100%;overflow-x:hidden;}
+body{margin:0;max-width:100%;overflow-x:hidden;background:#f5f5f7;font-family:"Vazirmatn",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1d1d1f;}
+*{box-sizing:border-box;}.va-section{position:relative;}.va-item{position:relative;}.va-item.play,.va-item.anim-float{will-change:transform,opacity,filter;}@media (prefers-reduced-motion: reduce){.va-item,.va-item.play,.va-item.anim-float{animation:none!important;opacity:1!important;filter:none!important;transform:none!important;will-change:auto!important;}[data-reveal]{transition:none!important;}}.va-item.anim-none{opacity:1;}.va-item.anim-fadeLeft{opacity:0;filter:blur(var(--blur));transform:translateX(calc(-1*var(--offset)));}.va-item.anim-fadeRight{opacity:0;filter:blur(var(--blur));transform:translateX(var(--offset));}.va-item.anim-fadeUp{opacity:0;filter:blur(var(--blur));transform:translateY(var(--offset));}.va-item.anim-fadeDown{opacity:0;filter:blur(var(--blur));transform:translateY(calc(-1*var(--offset)));}.va-item.anim-zoom{opacity:0;filter:blur(var(--blur));transform:scale(.85);}.va-item.anim-float{animation:vaFloatY var(--dur,4s) ease-in-out infinite;}.va-item.anim-fadeLeft.play{animation:vaFadeLeft var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeRight.play{animation:vaFadeRight var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeUp.play{animation:vaFadeUp var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-fadeDown.play{animation:vaFadeDown var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}.va-item.anim-zoom.play{animation:vaZoom var(--dur) cubic-bezier(.16,.8,.24,1) forwards;animation-delay:var(--delay);}@keyframes vaFadeLeft{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeRight{to{opacity:1;filter:blur(0);transform:translateX(0);}}@keyframes vaFadeUp{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaFadeDown{to{opacity:1;filter:blur(0);transform:translateY(0);}}@keyframes vaZoom{to{opacity:1;filter:blur(0);transform:scale(1);}}@keyframes vaFloatY{0%{transform:translateY(0);}50%{transform:translateY(var(--offset,-15px));}100%{transform:translateY(0);}}.va-btn{display:inline-block;padding:14px 30px;font-weight:700;font-size:16px;text-decoration:none;transition:transform .3s ease, box-shadow .3s ease;}.va-btn:hover{transform:translateY(-2px) scale(1.02);}.va-contact-link{transition:opacity .2s ease;cursor:pointer;}.va-contact-link:hover{opacity:.72;}.va-tag{background:#e8e8ed;color:#1d1d1f;padding:6px 16px;border-radius:980px;font-size:14px;}.va-360{background:#000;}.va-360-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#8e8e93;font-size:28px;}.va-360-spinner{width:30px;height:30px;border-radius:50%;border:3px solid rgba(255,255,255,.25);border-top-color:#fff;animation:va360Spin .8s linear infinite;}@keyframes va360Spin{to{transform:rotate(360deg);}}.va-360-error{color:#fff;font-size:13px;}.va-360-stage{position:absolute;inset:0;overflow:hidden;}.va-360-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none;}.va-360-canvas.dragging{cursor:grabbing;}.va-360-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.55);color:#fff;padding:4px 14px;border-radius:980px;font-size:12px;pointer-events:none;transition:opacity .6s ease;}.va-360-fs-btn{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.55);color:#fff;border:none;width:32px;height:32px;border-radius:980px;font-size:15px;cursor:pointer;z-index:2;font-family:inherit;line-height:1;display:flex;align-items:center;justify-content:center;}.va-360-fs-btn:hover{background:rgba(0,0,0,.75);}.va-360:fullscreen,.va-360:-webkit-full-screen,.va-360:-moz-full-screen,.va-360:-ms-fullscreen{width:100vw!important;height:100vh!important;border-radius:0!important;}.va-img-broken{color:#c0392b;font-weight:600;}.va-input{padding:14px 16px;border-radius:14px;border:1px solid #d2d2d7;font-family:inherit;font-size:15px;background:#fff;}.va-input:focus{outline:2px solid #2f5ded;border-color:transparent;}.va-empty-media{display:flex;align-items:center;justify-content:center;color:#86868b;font-size:13px;font-weight:600;background-color:#f5f5f5;background-image:linear-gradient(45deg,#e2e2e5 25%,transparent 25%),linear-gradient(-45deg,#e2e2e5 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e2e2e5 75%),linear-gradient(-45deg,transparent 75%,#e2e2e5 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0;}
 </style>
 </head>
 <body>
-
-<header class="site-head">
-  <div class="head-inner">
-    <a class="brand" href="index.html">
-      <span class="brand-mark">A</span><span class="brand-text">اوی‌استور</span>
-    </a>
-    <a class="icon-btn" href="cart.html" aria-label="سبد خرید">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L22 8H6"/><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg>
-      <span class="cart-badge" id="cartBadge" hidden>0</span>
-    </a>
-  </div>
-</header>
-
-<div class="app">
-  <div class="banner-slider">
-    <div class="banner-track" id="bannerTrack">
-      <div class="banner-slide">
-        <span class="banner-eyebrow">✓ پرداخت امن با زرین‌پال</span>
-        <h2>هرچی لازم داری، همین‌جاست.</h2>
-        <p>محصولات را جستجو کن، به سبد اضافه کن و با خیال راحت خرید کن.</p>
-      </div>
-      <div class="banner-slide alt">
-        <span class="banner-eyebrow">🚚 ارسال به سراسر کشور</span>
-        <h2>تحویل سریع درب منزل</h2>
-        <p>سفارش‌ها پس از ثبت، در سریع‌ترین زمان ممکن بسته‌بندی و ارسال می‌شوند.</p>
-      </div>
-      <div class="banner-slide gold">
-        <span class="banner-eyebrow">🎁 تخفیف‌های ویژه</span>
-        <h2>پیشنهادهای هر هفته</h2>
-        <p>محصولات جدید و تخفیف‌دار را در صفحه اصلی دنبال کن.</p>
-      </div>
-    </div>
-    <div class="banner-dots" id="bannerDots"></div>
-  </div>
-
-  <div class="about-section">
-    <h3>درباره اوی‌استور</h3>
-    <p>اوی‌استور یک فروشگاه اینترنتی است که تلاش می‌کند خریدی ساده، سریع و مطمئن را برای شما فراهم کند. تمام قیمت‌ها و موجودی محصولات به‌صورت لحظه‌ای از سرور خوانده می‌شود و در زمان پرداخت نیز مجدداً توسط سرور بررسی می‌گردد تا از صحت سفارش شما اطمینان حاصل شود.</p>
-    <p>در صورت هرگونه سوال درباره سفارش، ارسال یا بازگشت کالا، تیم پشتیبانی ما آماده کمک به شماست.</p>
-    <div class="trust-row">
-      <span class="trust-chip">✓ پرداخت امن</span>
-      <span class="trust-chip">🚚 ارسال سریع</span>
-      <span class="trust-chip">↩ امکان مرجوعی</span>
-      <span class="trust-chip">☎ پشتیبانی آنلاین</span>
-    </div>
-  </div>
-
-  <div class="section-title">
-    <h2>پیشنهاد امروز برای شما</h2>
-    <button class="refresh-link" id="shuffleHomeBtn">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 2v6h-6M3 22v-6h6M3.5 9a8.5 8.5 0 0 1 14.6-4.9L21 8M20.5 15a8.5 8.5 0 0 1-14.6 4.9L3 16"/></svg>
-      نمایش تصادفی
-    </button>
-  </div>
-  <div class="grid" id="homeGrid">
-    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
-  </div>
-</div>
-
-<footer class="app-foot">© <span id="year"></span> اوی‌استور — تمام حقوق محفوظ است.</footer>
-<div class="lightbox" id="lightbox">
-  <div class="lightbox-panel">
-    <button class="lightbox-close" id="lightboxClose">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>
-    </button>
-    <div class="lightbox-img"><img id="lightboxImg" src="" alt=""></div>
-    <div class="lightbox-info">
-      <h2 id="lightboxTitle"></h2>
-      <p id="lightboxDesc"></p>
-      <div class="price-tag" id="lightboxPrice" style="font-size:19px;"></div>
-      <div style="display:flex;align-items:center;gap:10px;margin-top:6px;">
-        <div class="stepper" id="lightboxStepper">
-          <button type="button" data-act="dec">−</button>
-          <span id="lightboxQty">1</span>
-          <button type="button" data-act="inc">+</button>
-        </div>
-        <button class="add-btn" id="lightboxAdd" style="flex:1;padding:10px;">افزودن به سبد</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="toast-stack" id="toastStack"></div>
-<nav class="bottom-nav">
-  <a class="nav-btn active" href="index.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>
-    خانه
-  </a>
-  <a class="nav-btn" href="category.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
-    دسته‌بندی
-  </a>
-  <a class="nav-btn" href="search.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    جستجو
-  </a>
-  <a class="nav-btn" href="cart.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L22 8H6"/><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg>
-    سبد خرید
-    <span class="nav-badge" id="navCartBadge" hidden>0</span>
-  </a>
-</nav>
-
+<div id="vaProgressBar" style="position:fixed;top:0;right:0;left:0;height:3px;background:rgba(0,0,0,1);width:0%;z-index:9999;"></div><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:10px 40px;min-height:300px;" id="Icon"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:0.9s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0s; --blur:14px; --offset:50px;"><div style="height:40px;width:100%;"></div></div><div class="va-item anim-float" style="width:250px;max-width:100%; --dur:5s; --delay:0.45s; --blur:20px; --offset:14px;"><img src="icon.svg" style="width:100%;height:250px;object-fit:cover;border-radius:28px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:40px;"><h2 style="color:#1d1d1f;font-size:30px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">املاک گذرنامه</h2></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:12px; --offset:50px;"><p style="color:#515154;font-size:14px;font-family:inherit;line-height:1.85;margin:0;">در دنیایی که هر ملک یک داستان است، ما دروازه‌بان انتخاب‌های شما هستیم؛ از جست‌وجو تا امضای قرارداد، با دقتی که در خور سرمایه‌ی شماست.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:50px 24px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:16px; --offset:50px;"><a href="#About" class="va-btn" style="background:rgba(0,0,0,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">بیشتر بدانید</a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:16px; --offset:50px;"><a href="#Contact" class="va-btn" style="background:rgba(0,0,0,0.12);color:rgba(0,0,0,1);border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">دریافت مشاوره</a></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:nullpx;box-shadow:none;padding:50px 40px;" id="About"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:60px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0s; --blur:20px; --offset:60px;"><img src="design.jpg" style="width:100%;height:auto;object-fit:cover;border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.18);border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></div><div class="va-item anim-fadeLeft" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:38px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">درباره ما</h2></div><div class="va-item anim-fadeUp" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:60px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;"></div><div style="font-size:16px;color:#515154;line-height:1.8;">املاک گذرنامه با تکیه بر سال‌ها تجربه در بازار ملک کرمانشاه، همراه مطمئنی برای خرید، فروش، رهن و اجاره انواع آپارتمان، خانه، زمین و مغازه است.</div><div style="margin-top:12px;font-size:14px;color:#86868b;">- تیم ما پیش از هر معامله، مدارک و وضعیت حقوقی ملک را به‌دقت بررسی می‌کند تا مسیر شما از انتخاب تا امضای قرارداد، بدون دغدغه طی شود.</div></blockquote></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:70px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:0px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeRight" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:70px;"><h2 style="color:#1d1d1f;font-size:34px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">هر آنچه برای یک معامله مطمئن لازم دارید</h2></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:0px;box-shadow:none;padding:20px 24px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;border-radius:45px;box-shadow:none;padding:40px 40px;"><div style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">شفافیت کامل</div><div style="font-size:16px;color:#515154;line-height:1.8;">قیمت‌گذاری واقعی و بدون واسطه‌های غیرضروری.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">مشاوره رایگان</div><div style="font-size:16px;color:#515154;line-height:1.8;">همراهی تا لحظه امضای قرارداد.</div></blockquote></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:16px; --offset:70px;"><blockquote style="margin:0;padding:28px 32px;background:rgba(255,255,255,1);border-radius:18px;width:100%;"><div style="font-size:20px;font-weight:700;margin-bottom:10px;color:#1d1d1f;">پاسخگویی سریع</div><div style="font-size:16px;color:#515154;line-height:1.8;">در دسترس بودن مستقیم تیم گذرنامه.</div></blockquote></div></div></section><section class="va-section" style="background:rgba(245,245,247,0);opacity:1;border-radius:0px;box-shadow:none;padding:90px 60px;" id="Contact"><div style="display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:24px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeDown" style="width:820px;max-width:100%; --dur:1.4s; --delay:0.15s; --blur:16px; --offset:60px;"><h2 style="color:#1d1d1f;font-size:26px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;">گذرنامه شما به سوی خانه شایسته</h2></div><div class="va-item anim-fadeRight" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.3s; --blur:20px; --offset:60px;"><a href="https://maps.app.goo.gl/fk2GwXjNCMVRYHZx5" style="display:block;width:100%;"><img src="map.png" style="width:100%;height:360px;object-fit:cover;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.12);border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></a></div><div class="va-item anim-fadeLeft" style="width:400px;max-width:100%; --dur:1.4s; --delay:0.4s; --blur:20px; --offset:50px;"><div style="display:inline-flex;align-items:flex-start;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;"><span style="font-size:1.3em;line-height:1;">📍</span><span>آدرس<br><span style="font-weight:600;">کرمانشاه، بلوار آل‌آقا(گذرنامه)، روبه‌روی بانک صادرات، نبش کوی ۱۲۷،املاک گذرنانه</span></span></div></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.45s; --blur:14px; --offset:50px;"><a href="mailto:info@amlak-gozarnameh.ir" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">✉️</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">info@amlak-gozarnameh.ir</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.65s; --blur:14px; --offset:60px;"><a href="tel:09189107805" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09189107805</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.75s; --blur:14px; --offset:70px;"><a href="tel:09183206042" style="display:inline-flex;align-items:center;gap:10px;color:#1d1d1f;font-size:17px;font-family:inherit;text-decoration:none;" class="va-contact-link"><span style="font-size:1.3em;line-height:1;">📞</span><span><bdi style="direction:ltr;unicode-bidi:embed;font-weight:600;">09183206042</bdi></span></a></div><div class="va-item anim-fadeUp" style="width:100%;max-width:100%; --dur:1.4s; --delay:0.95s; --blur:30px; --offset:80px;"><a href="https://maps.app.goo.gl/fk2GwXjNCMVRYHZx5" class="va-btn" style="background:rgba(0,0,0,1);color:#ffffff;border-radius:980px;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:inherit;">باز کردن نقشه</a></div></div></section><section class="va-section" style="background:rgba(29,29,31,0);opacity:1;border-radius:0px;box-shadow:none;padding:40px 60px;"><div style="display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-fadeUp" style="width:auto;max-width:100%; --dur:1.4s; --delay:0.6s; --blur:10px; --offset:25px;"><p style="color:rgba(0,0,0,1);font-size:17px;font-family:inherit;line-height:1.85;margin:0;">© تمامی حقوق محفوظ است.</p></div></div></section><section class="va-section" style="background:rgba(255,255,255,0);opacity:1;backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-radius:0px;box-shadow:none;padding:20px 10px;position:fixed;top:0;left:0;right:0;z-index:9998;opacity:0;transform:translateY(-14px);transition:opacity .1s linear, transform .1s linear;" data-sticky="always" data-reveal="1" data-reveal-offset="0" data-reveal-distance="220"><div style="display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:18px;flex-wrap:wrap;max-width:1200px;margin:0 auto;width:100%;"><div class="va-item anim-none" style="width:30px;max-width:100%; --dur:5s; --delay:0s; --blur:14px; --offset:7px;"><a href="#Icon" style="display:block;width:100%;"><img src="icon.svg" style="width:100%;height:30px;object-fit:cover;border-radius:18px;box-shadow:none;border:0px solid rgba(0,0,0,.08);display:block;" alt="" loading="lazy" decoding="async" onerror="vaHandleImgError(this)"></a></div><div class="va-item anim-none" style="width:auto;max-width:100%; --dur:5s; --delay:0s; --blur:10px; --offset:10px;"><h3 style="color:#1d1d1f;font-size:20px;font-family:inherit;margin:0;font-weight:800;line-height:1.25;"><a href="#Icon" style="color:inherit;text-decoration:none;">املاک گذرنامه</a></h3></div></div></section>
 <script>
-(function(){
-
-  "use strict";
-  var CONFIG = {
-    API_BASE: "",
-    PRODUCTS_URL: "/products.json",
-    MAX_QTY_PER_PRODUCT: 10,
-    CURRENCY_LABEL: "ریال",
-    HOME_RANDOM_COUNT: 8
-  };
-  var STORAGE = { CART: "avistore_cart", CUSTOMER: "avistore_customer" };
-
-  var products = [];
-  var productsByCode = {};
-  var cart = loadCart();
-
-  document.getElementById("year").textContent = new Date().getFullYear();
-
-  function loadCart(){
-    try {
-      var raw = localStorage.getItem(STORAGE.CART);
-      var parsed = raw ? JSON.parse(raw) : {};
-      return (parsed && typeof parsed === "object") ? parsed : {};
-    } catch(e){ return {}; }
-  }
-  function saveCart(){
-    try { localStorage.setItem(STORAGE.CART, JSON.stringify(cart)); } catch(e){}
-  }
-  function loadCustomer(){
-    try {
-      var raw = localStorage.getItem(STORAGE.CUSTOMER);
-      return raw ? JSON.parse(raw) : {};
-    } catch(e){ return {}; }
-  }
-  function saveCustomer(data){
-    try { localStorage.setItem(STORAGE.CUSTOMER, JSON.stringify(data)); } catch(e){}
-  }
-
-  function fmtPrice(n){
-    n = Number(n) || 0;
-    return n.toLocaleString("fa-IR") + " " + CONFIG.CURRENCY_LABEL;
-  }
-  function escapeHtml(s){
-    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
-      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+function vaInitAnimations(root, scrollRoot){
+  var items = root.querySelectorAll('.va-item:not(.anim-none):not(.anim-float)');
+  if(root.__vaObserver){ root.__vaObserver.disconnect(); }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.remove('play');
+        void entry.target.offsetWidth;
+        entry.target.classList.add('play');
+      } else {
+        entry.target.classList.remove('play');
+      }
     });
-  }
-  function toast(msg, isErr){
-    var stack = document.getElementById("toastStack");
-    var el = document.createElement("div");
-    el.className = "toast" + (isErr ? " err" : "");
-    el.textContent = msg;
-    stack.appendChild(el);
-    setTimeout(function(){
-      el.style.transition = "opacity .3s"; el.style.opacity = "0";
-      setTimeout(function(){ el.remove(); }, 300);
-    }, 2200);
-  }
-  function shuffledCopy(arr){
-    var a = arr.slice();
-    for(var i = a.length - 1; i > 0; i--){
-      var j = Math.floor(Math.random() * (i + 1));
-      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
-    }
-    return a;
-  }
-
-  function updateCartBadge(){
-    var count = 0;
-    Object.keys(cart).forEach(function(code){
-      if(cart[code] > 0) count += cart[code];
-    });
-    var badge = document.getElementById("cartBadge");
-    var navBadge = document.getElementById("navCartBadge");
-    if(count > 0){
-      if(badge){ badge.hidden = false; badge.textContent = count; }
-      if(navBadge){ navBadge.hidden = false; navBadge.textContent = count; }
+  }, {root: scrollRoot||null, threshold:0.15});
+  items.forEach(function(el){ obs.observe(el); });
+  root.__vaObserver = obs;
+}
+function vaInitProgressBar(scrollTarget, barEl){
+  if(!barEl) return;
+  function update(){
+    var scrollTop, scrollHeight, clientHeight;
+    if(scrollTarget===window){
+      scrollTop = window.scrollY || document.documentElement.scrollTop;
+      scrollHeight = document.documentElement.scrollHeight;
+      clientHeight = document.documentElement.clientHeight;
     } else {
-      if(badge) badge.hidden = true;
-      if(navBadge) navBadge.hidden = true;
+      scrollTop = scrollTarget.scrollTop;
+      scrollHeight = scrollTarget.scrollHeight;
+      clientHeight = scrollTarget.clientHeight;
     }
+    var max = scrollHeight - clientHeight;
+    var pct = max>0 ? (scrollTop/max)*100 : 0;
+    barEl.style.width = pct+'%';
   }
-  updateCartBadge();
-
-  function cardHtml(p){
-    var thumb = escapeHtml(p.thumb || p.image || "");
-    var qtyInCart = cart[p.code] || 0;
-    var atMax = qtyInCart >= CONFIG.MAX_QTY_PER_PRODUCT;
-    return (
-      '<div class="card" data-code="' + escapeHtml(p.code) + '">' +
-        '<div class="card-media" data-open-lightbox="' + escapeHtml(p.code) + '">' +
-          '<img src="' + thumb + '" alt="' + escapeHtml(p.name) + '" loading="lazy">' +
-          '<span class="zoom-hint">نمایش تصویر</span>' +
-        '</div>' +
-        '<div class="card-body">' +
-          '<h3 class="card-title">' + escapeHtml(p.name) + '</h3>' +
-          '<p class="card-desc">' + escapeHtml(p.description || "") + '</p>' +
-          '<div class="card-foot">' +
-            '<span class="price-tag num">' + fmtPrice(p.price) + '</span>' +
-            '<button class="add-btn" data-add="' + escapeHtml(p.code) + '" ' + (atMax ? "disabled" : "") + '>' +
-              (atMax ? "حداکثر" : "افزودن") +
-            '</button>' +
-          '</div>' +
-        '</div>' +
-      '</div>'
-    );
+  (scrollTarget===window?window:scrollTarget).addEventListener('scroll', update);
+  update();
+}
+function vaInitScrollReveal(root, scrollTarget){
+  var target = scrollTarget===window ? window : scrollTarget;
+  if(target.__vaRevealHandler){ target.removeEventListener('scroll', target.__vaRevealHandler); target.__vaRevealHandler = null; }
+  var els = root.querySelectorAll('[data-reveal="1"]');
+  if(!els.length) return;
+  function getScrollTop(){
+    return scrollTarget===window ? (window.scrollY || document.documentElement.scrollTop) : scrollTarget.scrollTop;
   }
-
-  function addToCart(code, qty){
-    var product = productsByCode[code];
-    if(!product) return;
-    var current = cart[code] || 0;
-    var next = Math.min(current + qty, CONFIG.MAX_QTY_PER_PRODUCT);
-    if(next === current){
-      toast("حداکثر " + CONFIG.MAX_QTY_PER_PRODUCT + " عدد از این محصول قابل افزودن است.", true);
-      return;
+  var ticking = false;
+  function update(){
+    var y = getScrollTop();
+    for(var i=0;i<els.length;i++){
+      var el = els[i];
+      var offset = parseFloat(el.getAttribute('data-reveal-offset'))||0;
+      var dist = Math.max(1, parseFloat(el.getAttribute('data-reveal-distance'))||1);
+      var p = (y - offset)/dist;
+      if(p<0) p=0; if(p>1) p=1;
+      el.style.opacity = p;
+      el.style.transform = 'translateY('+(-14*(1-p))+'px)';
+      el.style.pointerEvents = p<0.05 ? 'none' : 'auto';
     }
-    cart[code] = next;
-    saveCart();
-    updateCartBadge();
-    if(typeof afterCartChange === "function") afterCartChange();
-    toast(product.name + " به سبد اضافه شد.");
+    ticking = false;
   }
-
-  function loadProducts(){
-    fetch(CONFIG.PRODUCTS_URL, { cache: "no-store" })
-      .then(function(r){
-        if(!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then(function(list){
-        if(!Array.isArray(list)) throw new Error("فرمت products.json نامعتبر است.");
-        products = list.filter(function(p){ return p && p.code && p.active !== false; });
-        productsByCode = {};
-        products.forEach(function(p){ productsByCode[p.code] = p; });
-        rollHomeRandom();
-        renderHome();
-      })
-      .catch(function(err){
-        var msg = '<div class="error-state">' +
-          '<h3>مشکلی در بارگذاری محصولات پیش آمد</h3>' +
-          '<p>فایل products.json پیدا نشد یا فرمت آن نادرست است. (' + escapeHtml(err.message) + ')</p>' +
-          '</div>';
-        document.getElementById("homeGrid").innerHTML = msg;
+  function onScroll(){ if(!ticking){ ticking = true; requestAnimationFrame(update); } }
+  target.__vaRevealHandler = onScroll;
+  target.addEventListener('scroll', onScroll, {passive:true});
+  update();
+}
+function vaInitCommentForms(root){
+  var forms = root.querySelectorAll('.va-comment-form');
+  forms.forEach(function(form){
+    if(form.__vaBound) return;
+    form.__vaBound = true;
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var endpoint = form.dataset.endpoint;
+      var msg = form.querySelector('.va-form-msg');
+      var fd = new FormData(form);
+      if(!endpoint){
+        if(msg){ msg.textContent = 'نظر شما ثبت شد (آدرس سرور تنظیم نشده است).'; msg.style.color = '#2f5ded'; }
+        form.reset();
+        return;
+      }
+      fetch(endpoint, {method:'POST', body:fd}).then(function(){
+        if(msg){ msg.textContent = 'نظر شما با موفقیت ارسال شد.'; msg.style.color = '#0a8a3d'; }
+        form.reset();
+      }).catch(function(){
+        if(msg){ msg.textContent = 'خطا در ارسال نظر. دوباره تلاش کنید.'; msg.style.color = '#d70015'; }
       });
-  }
-
-  var homeRandomList = [];
-  function rollHomeRandom(){
-    var n = Math.min(CONFIG.HOME_RANDOM_COUNT, products.length);
-    homeRandomList = shuffledCopy(products).slice(0, n);
-  }
-  document.getElementById("shuffleHomeBtn").addEventListener("click", function(){
-    rollHomeRandom();
-    renderHome();
+    });
   });
+  var feeds = root.querySelectorAll('.va-rss-feed');
+  feeds.forEach(function(feedEl){
+    if(feedEl.__vaBound) return;
+    feedEl.__vaBound = true;
+    function esc2(s){ return (s===undefined||s===null?'':String(s)).replace(/[&<>"']/g, function(c){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
+    function load(){
+      var url = feedEl.dataset.rssUrl;
+      if(!url) return;
+      fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(url))
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          if(data.status!=='ok' || !data.items || !data.items.length){
+            feedEl.innerHTML = '<p style="color:#d70015;font-size:14px;">خطا در دریافت RSS. آدرس فید را بررسی کنید.</p>';
+            return;
+          }
+          feedEl.innerHTML = data.items.slice(0,5).map(function(it){
+            return '<div style="padding:14px 0;border-top:1px solid #d2d2d7;"><a href="'+esc2(it.link)+'" target="_blank" rel="noopener" style="color:#2f5ded;font-weight:600;text-decoration:none;">'+esc2(it.title)+'</a></div>';
+          }).join('');
+        }).catch(function(){
+          feedEl.innerHTML = '<p style="color:#d70015;font-size:14px;">خطا در بارگذاری RSS. اتصال اینترنت یا آدرس فید را بررسی کنید.</p>';
+        });
+    }
+    load();
+    setInterval(load, 60000);
+  });
+}
+function va360Init(root){
+  /* True spherical (equirectangular) 360 viewer — the same projection model
+     Google Maps/Street View uses: a virtual camera sits at the center of a
+     sphere and looks outward; every screen pixel is ray-cast through that
+     camera and used to sample the equirectangular panorama with a WebGL
+     shader. This gives a mathematically correct, perfectly smooth pan/zoom
+     with no seams, no tiling artifacts and no pole distortion — unlike a
+     CSS-tile approximation. Pure WebGL, no external library. */
+  var viewers = root.querySelectorAll('.va-360');
+  viewers.forEach(function(el){
+    if(el.__vaBound) return;
+    el.__vaBound = true;
+    var src = el.dataset.src;
+    if(!src){ el.innerHTML=''; return; }
 
-  function renderHome(){
-    var grid = document.getElementById("homeGrid");
-    if(!homeRandomList.length){
-      grid.innerHTML = '<div class="empty-state"><h3>محصولی موجود نیست</h3><p>بعداً دوباره سر بزن.</p></div>';
+    el.innerHTML = '';
+    var stage = document.createElement('div');
+    stage.className = 'va-360-stage';
+    el.appendChild(stage);
+
+    var canvas = document.createElement('canvas');
+    canvas.className = 'va-360-canvas';
+    stage.appendChild(canvas);
+
+    var gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+    if(!gl){
+      /* Extremely rare fallback: no WebGL available at all */
+      el.innerHTML = '<img src="'+src.replace(/"/g,'&quot;')+'" style="width:100%;height:100%;object-fit:cover;">';
       return;
     }
-    grid.innerHTML = homeRandomList.map(cardHtml).join("");
-  }
-  document.getElementById("homeGrid").addEventListener("click", handleGridClick);
 
-  function afterCartChange(){ renderHome(); }
+    var vertSrc = 'attribute vec2 aPos;varying vec2 vUv;void main(){vUv=aPos;gl_Position=vec4(aPos,0.0,1.0);}';
+    var fragSrc = 'precision highp float;'+
+      'varying vec2 vUv;'+
+      'uniform sampler2D uTex;'+
+      'uniform float uYaw;'+
+      'uniform float uPitch;'+
+      'uniform float uTanFov;'+
+      'uniform float uAspect;'+
+      'const float PI=3.14159265359;'+
+      'void main(){'+
+      '  vec3 dir=normalize(vec3(vUv.x*uTanFov*uAspect, vUv.y*uTanFov, -1.0));'+
+      '  float cp=cos(uPitch), sp=sin(uPitch);'+
+      '  vec3 d1=vec3(dir.x, dir.y*cp - dir.z*sp, dir.y*sp + dir.z*cp);'+
+      '  float cy=cos(uYaw), sy=sin(uYaw);'+
+      '  vec3 d2=vec3(d1.x*cy + d1.z*sy, d1.y, -d1.x*sy + d1.z*cy);'+
+      '  float lon=atan(d2.x, -d2.z);'+
+      '  float lat=asin(clamp(d2.y,-1.0,1.0));'+
+      '  vec2 uv=vec2(lon/(2.0*PI)+0.5, 0.5 + lat/PI);'+
+      '  gl_FragColor=texture2D(uTex, uv);'+
+      '}';
 
-  var lightbox = document.getElementById("lightbox");
-  var lightboxCode = null, lightboxQty = 1;
-  function openLightbox(code){
-    var p = productsByCode[code];
-    if(!p) return;
-    lightboxCode = code;
-    lightboxQty = 1;
-    document.getElementById("lightboxImg").src = p.image || p.thumb || "";
-    document.getElementById("lightboxImg").alt = p.name;
-    document.getElementById("lightboxTitle").textContent = p.name;
-    document.getElementById("lightboxDesc").textContent = p.description || "";
-    document.getElementById("lightboxPrice").textContent = fmtPrice(p.price);
-    document.getElementById("lightboxQty").textContent = lightboxQty;
-    lightbox.classList.add("open");
-  }
-  function closeLightbox(){ lightbox.classList.remove("open"); }
-  document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
-  lightbox.addEventListener("click", function(e){ if(e.target === lightbox) closeLightbox(); });
-  document.getElementById("lightboxStepper").addEventListener("click", function(e){
-    var btn = e.target.closest("button"); if(!btn) return;
-    var act = btn.getAttribute("data-act");
-    var already = cart[lightboxCode] || 0;
-    if(act === "inc" && lightboxQty + already < CONFIG.MAX_QTY_PER_PRODUCT) lightboxQty++;
-    if(act === "dec" && lightboxQty > 1) lightboxQty--;
-    document.getElementById("lightboxQty").textContent = lightboxQty;
-  });
-  document.getElementById("lightboxAdd").addEventListener("click", function(){
-    addToCart(lightboxCode, lightboxQty);
-    closeLightbox();
-  });
-
-  function handleGridClick(e){
-    var addBtn = e.target.closest("[data-add]");
-    if(addBtn){
-      addToCart(addBtn.getAttribute("data-add"), 1);
-      return;
+    function compile(type, source){
+      var sh = gl.createShader(type);
+      gl.shaderSource(sh, source);
+      gl.compileShader(sh);
+      return sh;
     }
-    var mediaEl = e.target.closest("[data-open-lightbox]");
-    if(mediaEl){
-      openLightbox(mediaEl.getAttribute("data-open-lightbox"));
-    }
-  }
+    var prog = gl.createProgram();
+    gl.attachShader(prog, compile(gl.VERTEX_SHADER, vertSrc));
+    gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fragSrc));
+    gl.linkProgram(prog);
+    gl.useProgram(prog);
 
-  (function initBanners(){
-    var track = document.getElementById("bannerTrack");
-    var slides = track.querySelectorAll(".banner-slide");
-    var dotsWrap = document.getElementById("bannerDots");
-    slides.forEach(function(_, i){
-      var d = document.createElement("span");
-      if(i === 0) d.classList.add("on");
-      dotsWrap.appendChild(d);
+    var buf = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+    var aPos = gl.getAttribLocation(prog, 'aPos');
+    gl.enableVertexAttribArray(aPos);
+    gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+    var uYaw = gl.getUniformLocation(prog,'uYaw');
+    var uPitch = gl.getUniformLocation(prog,'uPitch');
+    var uTanFov = gl.getUniformLocation(prog,'uTanFov');
+    var uAspect = gl.getUniformLocation(prog,'uAspect');
+    var uTex = gl.getUniformLocation(prog,'uTex');
+
+    var texture = gl.createTexture();
+    var texReady = false;
+
+    var yaw = 0, pitch = 0, fov = 90*Math.PI/180; // vertical fov, radians
+    var minFov = 25*Math.PI/180, maxFov = 100*Math.PI/180;
+    var rafPending = false;
+
+    function scheduleRender(){
+      if(rafPending) return;
+      rafPending = true;
+      requestAnimationFrame(doRender);
+    }
+    function doRender(){
+      rafPending = false;
+      if(!texReady) return;
+      gl.clearColor(0,0,0,1);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.uniform1f(uYaw, yaw);
+      gl.uniform1f(uPitch, pitch);
+      gl.uniform1f(uTanFov, Math.tan(fov/2));
+      gl.uniform1f(uAspect, canvas.width/canvas.height);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    }
+
+    function resize(){
+      var w = el.clientWidth||1, h = el.clientHeight||1;
+      var dpr = Math.min(window.devicePixelRatio||1, 2);
+      var cw = Math.max(1, Math.round(w*dpr)), ch = Math.max(1, Math.round(h*dpr));
+      if(canvas.width!==cw || canvas.height!==ch){
+        canvas.width = cw; canvas.height = ch;
+        gl.viewport(0,0,cw,ch);
+      }
+      scheduleRender();
+    }
+
+    var loading = document.createElement('div');
+    loading.className = 'va-360-loading';
+    loading.innerHTML = '<span class="va-360-spinner"></span>';
+    el.appendChild(loading);
+
+    function showPlainImageFallback(){
+      /* Used if the browser refuses to upload this image into WebGL (e.g. an
+         externally-hosted image without CORS headers). A plain pannable image
+         is far better than a blank black box. */
+      el.innerHTML = '';
+      var img2 = document.createElement('img');
+      img2.src = src;
+      img2.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+      el.appendChild(img2);
+    }
+
+    function uploadTexture(imgEl){
+      /* Panorama photos from phones/stock sites are frequently far larger
+         than what WebGL can accept as a single texture (commonly capped at
+         2048–8192px depending on the device's GPU). Uploading an oversized
+         image doesn't throw a JS error — it fails silently at the driver
+         level and leaves the texture empty, which renders as solid black.
+         So: always downscale to a safe size first. */
+      var maxDim = Math.min(gl.getParameter(gl.MAX_TEXTURE_SIZE) || 4096, 4096);
+      var srcW = imgEl.naturalWidth || imgEl.width, srcH = imgEl.naturalHeight || imgEl.height;
+      var source = imgEl;
+      if(srcW > maxDim || srcH > maxDim){
+        var scale = maxDim / Math.max(srcW, srcH);
+        var off = document.createElement('canvas');
+        off.width = Math.max(1, Math.round(srcW*scale));
+        off.height = Math.max(1, Math.round(srcH*scale));
+        var octx = off.getContext('2d');
+        octx.drawImage(imgEl, 0, 0, off.width, off.height);
+        source = off;
+      }
+      try{
+        gl.bindTexture(gl.TEXTURE_2D, texture);
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source);
+        var glErr = gl.getError();
+        if(glErr !== gl.NO_ERROR) throw new Error('gl error '+glErr);
+      }catch(err){
+        showPlainImageFallback();
+        return;
+      }
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.activeTexture(gl.TEXTURE0);
+      gl.bindTexture(gl.TEXTURE_2D, texture);
+      gl.uniform1i(uTex, 0);
+      texReady = true;
+      if(loading.parentNode) loading.parentNode.removeChild(loading);
+      scheduleRender();
+    }
+
+    function build(){
+      resize();
+      var img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function(){ uploadTexture(img); };
+      img.onerror = function(){
+        /* Retry once without crossOrigin, in case the host blocks
+           CORS-tagged requests outright but allows plain <img> loads */
+        var retry = new Image();
+        retry.onload = function(){ uploadTexture(retry); };
+        retry.onerror = function(){ loading.innerHTML = '<span class="va-360-error">تصویر بارگذاری نشد</span>'; };
+        retry.src = src;
+      };
+      img.src = src;
+    }
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if(en.isIntersecting){ build(); io.disconnect(); } });
+      }, {rootMargin:'200px'});
+      io.observe(el);
+    } else { build(); }
+
+    if('ResizeObserver' in window){
+      new ResizeObserver(resize).observe(el);
+    } else { window.addEventListener('resize', resize); }
+
+    function clampPitch(p){ var lim=85*Math.PI/180; return Math.max(-lim, Math.min(lim, p)); }
+
+    /* Drag to look around (grab-the-panorama feel, like Street View) + pinch/wheel to zoom */
+    var pointers = {}, dragging=false, startX=0, startY=0, startYaw=0, startPitch=0, pinchDist=0, pinchFov=fov;
+    function pids(){ return Object.keys(pointers); }
+    function dist2(){
+      var k = pids(); if(k.length<2) return 0;
+      var a=pointers[k[0]], b=pointers[k[1]];
+      return Math.hypot(a.x-b.x, a.y-b.y);
+    }
+    canvas.addEventListener('pointerdown', function(e){
+      pointers[e.pointerId] = {x:e.clientX,y:e.clientY};
+      canvas.setPointerCapture(e.pointerId);
+      var k = pids();
+      if(k.length===1){ dragging=true; startX=e.clientX; startY=e.clientY; startYaw=yaw; startPitch=pitch; canvas.classList.add('dragging'); }
+      else if(k.length===2){ dragging=false; pinchDist=dist2(); pinchFov=fov; }
     });
-    var dots = dotsWrap.querySelectorAll("span");
-    function setActive(i){
-      dots.forEach(function(d, idx){ d.classList.toggle("on", idx === i); });
-    }
-    track.addEventListener("scroll", function(){
-      var i = Math.round(track.scrollLeft / track.clientWidth);
-      setActive(Math.max(0, Math.min(slides.length - 1, i)));
+    canvas.addEventListener('pointermove', function(e){
+      if(!pointers[e.pointerId]) return;
+      pointers[e.pointerId] = {x:e.clientX,y:e.clientY};
+      var k = pids();
+      if(k.length===2){
+        var d = dist2();
+        if(pinchDist>0){ fov = Math.min(maxFov, Math.max(minFov, pinchFov*(pinchDist/d))); scheduleRender(); }
+      } else if(dragging){
+        var dx = e.clientX-startX, dy = e.clientY-startY;
+        var rectW = canvas.clientWidth||1, rectH = canvas.clientHeight||1;
+        var hfov = 2*Math.atan(Math.tan(fov/2)*(canvas.width/canvas.height));
+        yaw = startYaw + (dx/rectW)*hfov;
+        pitch = clampPitch(startPitch + (dy/rectH)*fov);
+        scheduleRender();
+      }
     });
-    var autoIdx = 0;
-    setInterval(function(){
-      autoIdx = (autoIdx + 1) % slides.length;
-      track.scrollTo({ left: autoIdx * track.clientWidth, behavior: "smooth" });
-    }, 4500);
-  })();
+    function release(e){
+      delete pointers[e.pointerId];
+      if(pids().length<1){ dragging=false; canvas.classList.remove('dragging'); }
+    }
+    canvas.addEventListener('pointerup', release);
+    canvas.addEventListener('pointercancel', release);
+    canvas.addEventListener('dblclick', function(){ yaw=0; pitch=0; fov=90*Math.PI/180; scheduleRender(); });
+    canvas.addEventListener('wheel', function(e){
+      e.preventDefault();
+      fov = Math.min(maxFov, Math.max(minFov, fov + e.deltaY*0.001));
+      scheduleRender();
+    }, {passive:false});
 
-  loadProducts();
+    var hint = document.createElement('span');
+    hint.className = 'va-360-hint';
+    hint.textContent = 'بکشید (بالا/پایین و چپ/راست) یا اسکرول کنید برای چرخش 360°';
+    el.appendChild(hint);
+    setTimeout(function(){ hint.style.opacity='0'; }, 3500);
 
-})();
+    /* Fullscreen toggle uses the browser's own default fullscreen API */
+    function isFsSupported(){
+      return !!(el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen);
+    }
+    function currentFsElement(){
+      return document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
+    }
+    function requestFs(){
+      var req = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+      if(req) req.call(el);
+    }
+    function exitFs(){
+      var ext = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+      if(ext) ext.call(document);
+    }
+    if(isFsSupported()){
+      var fsExpandSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>';
+      var fsCollapseSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v3a2 2 0 0 1-2 2H4M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3"/></svg>';
+      var fsBtn = document.createElement('button');
+      fsBtn.type = 'button';
+      fsBtn.className = 'va-360-fs-btn';
+      fsBtn.title = 'نمایش تمام‌صفحه';
+      fsBtn.innerHTML = fsExpandSvg;
+      fsBtn.addEventListener('click', function(e){
+        e.stopPropagation();
+        if(currentFsElement()===el) exitFs(); else requestFs();
+      });
+      el.appendChild(fsBtn);
+      ['fullscreenchange','webkitfullscreenchange','mozfullscreenchange','MSFullscreenChange'].forEach(function(evName){
+        document.addEventListener(evName, function(){
+          var isFs = currentFsElement()===el;
+          fsBtn.innerHTML = isFs ? fsCollapseSvg : fsExpandSvg;
+          fsBtn.title = isFs ? 'خروج از تمام‌صفحه' : 'نمایش تمام‌صفحه';
+          setTimeout(resize, 50);
+        });
+      });
+    }
+  });
+}
+function vaSmoothAnchors(root){
+  var links = root.querySelectorAll('a[href^="#"]');
+  links.forEach(function(a){
+    if(a.__vaBound) return;
+    a.__vaBound = true;
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href').slice(1);
+      if(!id) return;
+      var target = document.getElementById(id);
+      if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+    });
+  });
+}
+function vaFixSpacers(root){
+  var fixedSecs = root.querySelectorAll('[data-sticky="always"]');
+  fixedSecs.forEach(function(sec){
+    var h = sec.offsetHeight;
+    var next = sec.nextElementSibling;
+    if(next && next.classList && next.classList.contains('va-spacer-auto')){
+      next.style.height = h+'px';
+    } else {
+      var sp = document.createElement('div');
+      sp.className='va-spacer-auto';
+      sp.style.height = h+'px';
+      sp.style.width='100%';
+      sec.parentNode.insertBefore(sp, sec.nextSibling);
+    }
+  });
+}
+function vaHandleImgError(img){
+  if(!img || img.getAttribute('data-va-error')==='1') return;
+  img.setAttribute('data-va-error','1');
+  var cs = img.style;
+  var height = (cs.height && cs.height !== 'auto') ? cs.height : '220px';
+  var ph = document.createElement('div');
+  ph.className = 'va-empty-media va-img-broken';
+  ph.style.width = '100%';
+  ph.style.height = height;
+  ph.style.borderRadius = cs.borderRadius || '0';
+  ph.style.boxShadow = cs.boxShadow || 'none';
+  ph.style.border = cs.border || 'none';
+  ph.style.flexDirection = 'column';
+  ph.style.gap = '6px';
+  ph.style.textAlign = 'center';
+  ph.style.padding = '10px';
+  ph.innerHTML = '<span style="font-size:22px;">⚠️</span><span>عکس بارگذاری نشد</span>';
+  ph.title = img.src ? ('آدرس نامعتبر یا در دسترس نبودن تصویر: '+img.src) : 'آدرس تصویر تنظیم نشده است';
+  if(img.parentNode) img.parentNode.replaceChild(ph, img);
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+vaInitAnimations(document.body, null);
+vaInitScrollReveal(document.body, window);
+vaInitProgressBar(window, document.getElementById("vaProgressBar"));
+vaInitCommentForms(document.body);
+va360Init(document.body);
+vaSmoothAnchors(document.body);
+vaFixSpacers(document.body);
+});
 </script>
 </body>
 </html>
